@@ -14,7 +14,7 @@ created: 20170304T184504Z
 field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
 name: Rule
 key: rule
-content-length: 1302
+content-length: 2059
 
 <ruleset>
   <rule uid="{C0968BC5-DEEC-442D-B84B-20A49CF89174}" name="Add Azure Endpoints Root to the Providers Root unless already present">
@@ -36,11 +36,22 @@ content-length: 1302
       <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="DE89377735C649F6BBADB6821B25048B" insertoptionid="{F36BF39C-2054-41E4-866C-B3F81382838D}" />
     </actions>
   </rule>
+  <rule uid="{D17327A8-F115-4F73-BA85-1DDBAB691570}" name="Add Property Value Accessor Sets Providers Root">
+    <conditions>
+      <and uid="BE6A2CE2B0F64592AB24CB8F9767560D">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="8F9BC21C40BE4919BBF28DABC79064D1" templateid="{BB7B0FCD-8619-4C50-A012-6BE3BB21A749}" />
+        <condition id="{5CD2292C-32AC-4976-AA4F-A741555D22F8}" uid="AAC4631FB4CB489CBBDB610B520D5671" except="true" query="./*[@@templateid='{23B10FF2-E11B-452A-A868-E2925C83E201}']" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="50690BD1BAD0455DA27B22F3C4AAB1FB" insertoptionid="{1D35055E-BA52-4262-9684-58F0DDBF40F2}" />
+    </actions>
+  </rule>
 </ruleset>
 ----version----
 language: en
 version: 1
-revision: 3dc3af27-0478-4274-b3b3-c0416ce0b4a7
+revision: 0b8eb1cc-9c05-4650-a597-7dc8ecd5879e
 
 ----field----
 field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
@@ -76,14 +87,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3dc3af27-0478-4274-b3b3-c0416ce0b4a7
+0b8eb1cc-9c05-4650-a597-7dc8ecd5879e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T215647Z
+20170304T233806Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
