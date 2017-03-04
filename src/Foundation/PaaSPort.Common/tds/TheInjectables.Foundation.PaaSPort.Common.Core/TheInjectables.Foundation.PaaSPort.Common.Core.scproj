@@ -34,7 +34,7 @@
     <SitecoreDeployFolder>C:\Websites\SCHackathon2017\Website</SitecoreDeployFolder>
     <InstallSitecoreConnector>False</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreWebUrl>http://passport.local</SitecoreWebUrl>
+    <SitecoreWebUrl>http://paasport.local</SitecoreWebUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
