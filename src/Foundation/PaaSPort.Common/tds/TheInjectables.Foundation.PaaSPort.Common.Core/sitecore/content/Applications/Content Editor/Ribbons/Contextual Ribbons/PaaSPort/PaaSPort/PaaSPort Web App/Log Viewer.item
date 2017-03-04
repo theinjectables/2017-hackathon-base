@@ -1,15 +1,22 @@
 ----item----
 version: 1
-id: {E5211324-63E3-4F97-AA44-3B4ED2EE12B9}
+id: {D47DB584-8461-4A1E-8EDE-F8B3797EB571}
 database: core
-path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/PaaSPort/Logs Viewer
-parent: {FB6386A5-F628-424E-B6C8-B0ACD91CA2EE}
-name: Logs Viewer
+path: /sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/PaaSPort/PaaSPort/PaaSPort Web App/Log Viewer
+parent: {E58A7C5A-1808-41F0-9E1B-A64BED5A1C28}
+name: Log Viewer
 master: {00000000-0000-0000-0000-000000000000}
 template: {1DB34C92-03B0-4475-9A39-DA14E4D9D8FC}
 templatekey: Large Button
-created: 20170304T021820Z
+created: 20170304T071434Z
 
+----field----
+field: {D47ED548-84D5-4622-9886-5CC164727507}
+name: Icon
+key: icon
+content-length: 24
+
+Apps/32x32/logviewer.png
 ----field----
 field: {DBBF9EE3-C30E-4456-A81F-ED8C2E8DF91B}
 name: Click
@@ -20,22 +27,22 @@ passport:logviewerbutton
 ----version----
 language: en
 version: 1
-revision: 652685fa-9aa0-4d69-8e12-42e78444f009
+revision: e107e132-5ddd-45a1-a3c6-2219504ffabe
 
 ----field----
 field: {4DF6DA21-E745-444C-956E-1D4A96AB8821}
 name: Header
 key: header
-content-length: 11
+content-length: 10
 
-Logs Viewer
+Log Viewer
 ----field----
 field: {A1A31A93-C4A0-4396-B629-67C33001A3CF}
 name: Tooltip
 key: tooltip
-content-length: 10
+content-length: 15
 
-View Logs.
+Shows the logs.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -49,7 +56,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170304T021820Z
+20170304T071434Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -63,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-652685fa-9aa0-4d69-8e12-42e78444f009
+e107e132-5ddd-45a1-a3c6-2219504ffabe
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T024011Z
+20170304T071601Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

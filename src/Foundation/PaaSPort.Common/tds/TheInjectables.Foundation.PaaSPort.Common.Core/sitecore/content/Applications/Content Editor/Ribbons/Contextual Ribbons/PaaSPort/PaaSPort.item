@@ -1,27 +1,41 @@
 ----item----
 version: 1
-id: {A78D5501-901B-4FDF-AF7D-B36808DF3B9C}
+id: {AF3EEBED-586F-49F6-9FEF-B5DE5C26C5B0}
 database: core
-path: /sitecore/content/Applications/Content Editor/Ribbons/Strips/PaaSPort/PaaSPort
-parent: {B75EB0D5-5492-4731-8D66-5FD39B006EF1}
+path: /sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/PaaSPort/PaaSPort
+parent: {CDE968DB-D7B0-4639-846A-171664C0882F}
 name: PaaSPort
 master: {00000000-0000-0000-0000-000000000000}
-template: {EF295CD8-19D4-4E02-9438-94C926EF5284}
-templatekey: Reference
-created: 20170304T021337Z
+template: {EC6D62A5-5D00-4329-8958-8AC1AD100EBB}
+templatekey: Strip
+created: 20170304T071026Z
 
 ----field----
-field: {C9CE97FB-3E8E-4384-9430-7DBA75B275DD}
-name: Reference
-key: reference
-content-length: 38
+field: {12C1CEB4-F549-472A-97ED-99BFF70EB84E}
+name: ID
+key: id
+content-length: 13
 
-{FB6386A5-F628-424E-B6C8-B0ACD91CA2EE}
+PaaSPortStrip
 ----version----
 language: en
 version: 1
-revision: ba41e9f1-6378-454a-8bf8-e52eb6a42247
+revision: 0bada284-b5cf-454f-8ee7-1c4a25acebb8
 
+----field----
+field: {5453DC07-6A17-48BA-8D05-17DB90A2E795}
+name: Header
+key: header
+content-length: 8
+
+PaaSPort
+----field----
+field: {4C9DC598-B43A-4B65-8425-BF2C4A9D132E}
+name: Contextual Header
+key: contextual header
+content-length: 8
+
+Web Apps
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +49,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170304T021337Z
+20170304T071026Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ba41e9f1-6378-454a-8bf8-e52eb6a42247
+0bada284-b5cf-454f-8ee7-1c4a25acebb8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T021848Z
+20170304T073510Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
