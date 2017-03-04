@@ -7,12 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>756b7151-c783-4efc-8a93-a8d5c89de44d</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>
-    </SourceWebPhysicalPath>
-    <SourceWebProject>
-    </SourceWebProject>
-    <SourceWebVirtualPath>
-    </SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\..\code</SourceWebPhysicalPath>
+    <SourceWebProject>{6717edc1-88c8-478a-b95a-c859315f87f0}|src\Foundation\PaaSPort.Common\code\TheInjectables.Foundation.PaaSPort.Common.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/TheInjectables.Foundation.PaaSPort.Common.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -23,11 +20,18 @@
     <AssemblyName>TheInjectables.Foundation.PaaSPort.Common.Master</AssemblyName>
     <Name>TheInjectables.Foundation.PaaSPort.Common.Master</Name>
     <RootNamespace>TheInjectables.Foundation.PaaSPort.Common.Master</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>http://passport.local</SitecoreWebUrl>
+    <InstallSitecoreConnector>False</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreDeployFolder>C:\Websites\SCHackathon2017\Website</SitecoreDeployFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -41,6 +45,12 @@
     <AssemblyAttributes Include="AssemblyVersion">
       <Value>$(AssemblyVersion)</Value>
     </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\code\TheInjectables.Foundation.PaaSPort.Common.csproj">
+      <Project>{6717edc1-88c8-478a-b95a-c859315f87f0}</Project>
+      <Name>TheInjectables.Foundation.PaaSPort.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
 </Project>
