@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.Azure.Management.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent.Authentication;
@@ -21,6 +22,7 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
         public bool Connected { get; private set; }
 
         public IAzure AzureSerivce { get; }
+        public abstract IEnumerable<IResourceGroup> GetResourceGroups();
 
         private IAzure Azure()
         {
