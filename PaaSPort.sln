@@ -42,6 +42,8 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Foundation.P
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Foundation.PaaSPort.Common.Master", "src\Foundation\PaaSPort.Common\tds\TheInjectables.Foundation.PaaSPort.Common.Master\TheInjectables.Foundation.PaaSPort.Common.Master.scproj", "{756B7151-C783-4EFC-8A93-A8D5C89DE44D}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaSPort.DXF.Master", "src\Feature\PaaSPort.DXF\tds\TheInjectables.Feature.PaaSPort.DXF.Master\TheInjectables.Feature.PaaSPort.DXF.Master.scproj", "{D66AD44E-0844-463D-AAC2-4643C9CC63C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		always|Any CPU = always|Any CPU
@@ -214,6 +216,30 @@ Global
 		{756B7151-C783-4EFC-8A93-A8D5C89DE44D}.Release|x64.ActiveCfg = Release|Any CPU
 		{756B7151-C783-4EFC-8A93-A8D5C89DE44D}.Release|x64.Build.0 = Release|Any CPU
 		{756B7151-C783-4EFC-8A93-A8D5C89DE44D}.Release|x64.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|Any CPU.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|Any CPU.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|x64.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|x64.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.always|x64.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|Any CPU.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|Any CPU.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|x64.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|x64.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.ci|x64.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|x64.Build.0 = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|x64.ActiveCfg = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|x64.Build.0 = Release|Any CPU
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1}.Release|x64.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,5 +261,6 @@ Global
 		{6717EDC1-88C8-478A-B95A-C859315F87F0} = {AB9A471D-CB3C-4AE2-B389-FF14C77AEAF3}
 		{A8E6B0FC-1EC2-4987-8C56-A425B2369255} = {AB9A471D-CB3C-4AE2-B389-FF14C77AEAF3}
 		{756B7151-C783-4EFC-8A93-A8D5C89DE44D} = {AB9A471D-CB3C-4AE2-B389-FF14C77AEAF3}
+		{D66AD44E-0844-463D-AAC2-4643C9CC63C1} = {F638E0E7-2493-4532-8B3E-8155353423C0}
 	EndGlobalSection
 EndGlobal
