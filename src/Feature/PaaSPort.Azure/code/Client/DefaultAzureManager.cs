@@ -12,7 +12,7 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
             
         }
 
-        public IEnumerable<IResourceGroup> GetResourceGroups()
+        public override IEnumerable<IResourceGroup> GetResourceGroups()
         {
             var groups = AzureSerivce.ResourceGroups.List();
 
