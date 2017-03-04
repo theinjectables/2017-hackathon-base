@@ -201,3 +201,4 @@ FakesAssemblies/
 # FED Files
 **/*.sublime-project
 **/*.sublime-workspace
+/azure/license.xml

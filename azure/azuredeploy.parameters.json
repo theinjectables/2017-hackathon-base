@@ -1,0 +1,23 @@
+{
+  "deploymentId": {
+    "value": ""
+  },
+  "sitecore.admin.password": {
+    "value": "Password1"
+  },
+  "sqlserver.login": {
+    "value": "sitecore"
+  },
+  "sqlserver.password": {
+    "value": "P&E9YC&cEZBaAP_-"
+  },
+  "cm.msdeploy.packageurl": {
+    "value": "https://injectablesscwebdeploy.blob.core.windows.net/webdeploy/Sitecore%208.2%20rev.%20161221_cm.scwdp.zip"
+  },
+  "cd.msdeploy.packageurl": {
+    "value": "https://injectablesscwebdeploy.blob.core.windows.net/webdeploy/Sitecore%208.2%20rev.%20161221_cd.scwdp.zip"
+  },
+  "licenseXml": {
+    "value": ""
+  }
+}
