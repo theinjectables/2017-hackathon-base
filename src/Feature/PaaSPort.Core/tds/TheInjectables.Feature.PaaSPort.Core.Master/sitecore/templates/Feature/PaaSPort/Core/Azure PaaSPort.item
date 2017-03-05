@@ -2,7 +2,7 @@
 version: 1
 id: {6CDDF2BF-703A-4172-A64B-D4CABB0CFDE5}
 database: master
-path: /sitecore/templates/Foundation/PaaSPort/Common/Azure PaaSPort
+path: /sitecore/templates/Feature/PaaSPort/Core/Azure PaaSPort
 parent: {F403EA59-0C0D-45B5-8462-04C465CE5EA2}
 name: Azure PaaSPort
 master: {00000000-0000-0000-0000-000000000000}

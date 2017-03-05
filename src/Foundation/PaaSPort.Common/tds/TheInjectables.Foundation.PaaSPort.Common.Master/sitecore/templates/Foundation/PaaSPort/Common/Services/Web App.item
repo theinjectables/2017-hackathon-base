@@ -16,7 +16,7 @@ name: __Base template
 key: __base template
 content-length: 38
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+{2BCC4BB7-CD88-40F6-9663-4DAC538E5930}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -24,10 +24,17 @@ key: __icon
 content-length: 20
 
 Apps/32x32/Earth.png
+----field----
+field: {0C894AAB-962B-4A84-B923-CB24B05E60D2}
+name: __Ribbon
+key: __ribbon
+content-length: 38
+
+{CDE968DB-D7B0-4639-846A-171664C0882F}
 ----version----
 language: en
 version: 1
-revision: b1d456d0-6aa2-4b5b-92ce-8f0d90cffed6
+revision: 628877a8-b8e7-422c-adc7-e19c683f0b91
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b1d456d0-6aa2-4b5b-92ce-8f0d90cffed6
+628877a8-b8e7-422c-adc7-e19c683f0b91
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T054418Z
+20170304T071839Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
