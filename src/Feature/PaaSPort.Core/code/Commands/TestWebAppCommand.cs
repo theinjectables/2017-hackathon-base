@@ -7,7 +7,7 @@ using Sitecore.Globalization;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
 
-namespace TheInjectables.Foundation.PaaSPort.Common.Commands
+namespace TheInjectables.Feature.PaaSPort.Core.Commands
 {
     [Serializable]
     public class TestWebAppCommand : Command
