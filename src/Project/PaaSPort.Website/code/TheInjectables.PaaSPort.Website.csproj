@@ -238,10 +238,6 @@
       <Project>{4e756bc9-d83c-4e63-8d7a-78d4cbbf7ef0}</Project>
       <Name>TheInjectables.Foundation.PaaSPort.Abstractions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Common\code\TheInjectables.Foundation.PaaSPort.Common.csproj">
-      <Project>{6717edc1-88c8-478a-b95a-c859315f87f0}</Project>
-      <Name>TheInjectables.Foundation.PaaSPort.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="util\TestAzure.aspx" />
