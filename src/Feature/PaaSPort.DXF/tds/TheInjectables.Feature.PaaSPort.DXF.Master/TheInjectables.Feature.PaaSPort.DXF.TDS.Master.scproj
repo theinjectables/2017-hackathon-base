@@ -21,7 +21,7 @@
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
     <AssemblyName>TheInjectables.Feature.PaaSPort.DXF.Master</AssemblyName>
-    <Name>TheInjectables.Feature.PaaSPort.DXF.Master</Name>
+    <Name>TheInjectables.Feature.PaaSPort.DXF.TDS.Master</Name>
     <RootNamespace>TheInjectables.Feature.PaaSPort.DXF.Master</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
