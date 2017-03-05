@@ -48,7 +48,9 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Foundation.P
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaSPort.DXF.Master", "src\Feature\PaaSPort.DXF\tds\TheInjectables.Feature.PaaSPort.DXF.Master\TheInjectables.Feature.PaaSPort.DXF.Master.scproj", "{D66AD44E-0844-463D-AAC2-4643C9CC63C1}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaSPort.Core.Master", "src\Feature\PaaSPort.Core\tds\TheInjectables.Feature.PaaSPort.Core.Master\TheInjectables.Feature.PaaSPort.Core.Master.scproj", "{405CFF13-AF88-4E03-B7C9-F02653417914}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaSPort.Core.TDS.Master", "src\Feature\PaaSPort.Core\tds\TheInjectables.Feature.PaaSPort.Core.Master\TheInjectables.Feature.PaaSPort.Core.TDS.Master.scproj", "{405CFF13-AF88-4E03-B7C9-F02653417914}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaSPort.Core.TDS.Core", "src\Feature\PaaSPort.Core\tds\TheInjectables.Feature.PaaSPort.Core.TDS.Core\TheInjectables.Feature.PaaSPort.Core.TDS.Core.scproj", "{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -286,6 +288,30 @@ Global
 		{405CFF13-AF88-4E03-B7C9-F02653417914}.Release|x64.ActiveCfg = Release|Any CPU
 		{405CFF13-AF88-4E03-B7C9-F02653417914}.Release|x64.Build.0 = Release|Any CPU
 		{405CFF13-AF88-4E03-B7C9-F02653417914}.Release|x64.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|Any CPU.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|Any CPU.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|Any CPU.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|x64.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|x64.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.always|x64.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|Any CPU.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|Any CPU.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|Any CPU.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|x64.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|x64.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.ci|x64.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|x64.Build.0 = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|x64.ActiveCfg = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|x64.Build.0 = Release|Any CPU
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC}.Release|x64.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -311,5 +337,6 @@ Global
 		{756B7151-C783-4EFC-8A93-A8D5C89DE44D} = {AB9A471D-CB3C-4AE2-B389-FF14C77AEAF3}
 		{D66AD44E-0844-463D-AAC2-4643C9CC63C1} = {F638E0E7-2493-4532-8B3E-8155353423C0}
 		{405CFF13-AF88-4E03-B7C9-F02653417914} = {868F6CB1-C533-46AF-BA73-C8D5CD3441F4}
+		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC} = {868F6CB1-C533-46AF-BA73-C8D5CD3441F4}
 	EndGlobalSection
 EndGlobal
