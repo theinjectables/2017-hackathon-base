@@ -37,10 +37,15 @@ namespace TheInjectables.Foundation.PaaSPort.Common.Commands
             if (context.Items.Length != 1)
                 return CommandState.Hidden;
             Item obj = context.Items[0];
+            var resourceName = obj.Fields["ResourceName"] != null ? obj.Fields["ResourceName"].Value : string.Empty;
             if (Context.IsAdministrator)
-                return !obj.Locking.IsLocked() ? CommandState.Hidden : CommandState.Enabled;
-            if (obj.Appearance.ReadOnly || !obj.Access.CanWrite() || (!obj.Locking.HasLock() || !obj.Access.CanWriteLanguage()))
-                return CommandState.Disabled;
+            {
+                // Get the resource from DXF by resource name.
+                return string.IsNullOrEmpty(resourceName) ? CommandState.Hidden : CommandState.Enabled;
+            }
+
+            //if (obj.Appearance.ReadOnly || !obj.Access.CanWrite() || (!obj.Locking.HasLock() || !obj.Access.CanWriteLanguage()))
+            //    return CommandState.Disabled;
             return base.QueryState(context);
         }
 

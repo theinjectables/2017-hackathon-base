@@ -71,6 +71,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\PaaSPort\Common\Azure PaaSPort.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\PaaSPort\Common\Folders.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -78,6 +79,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\PaaSPort\Common\Folders\Web Apps.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\PaaSPort\Common\Services.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -85,6 +87,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Foundation\PaaSPort\Common\Services\Web App.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
