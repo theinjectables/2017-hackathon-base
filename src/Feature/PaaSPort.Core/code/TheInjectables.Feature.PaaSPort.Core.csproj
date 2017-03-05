@@ -140,7 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Feature.PaaSPort.Common.Commands.config" />
+    <Content Include="App_Config\Include\Feature\Feature.PaaSPort.Core.Commands.config" />
     <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
