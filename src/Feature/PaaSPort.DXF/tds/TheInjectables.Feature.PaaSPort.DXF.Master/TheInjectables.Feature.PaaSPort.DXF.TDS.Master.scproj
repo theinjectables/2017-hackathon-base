@@ -24,21 +24,6 @@
     <SitecoreDatabase>master</SitecoreDatabase>
     <AssemblyStatus>Exclude</AssemblyStatus>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreWebUrl>http://paasport.local</SitecoreWebUrl>
-    <InstallSitecoreConnector>True</InstallSitecoreConnector>
-    <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreDeployFolder>C:\Websites\SCHackathon2017\Website</SitecoreDeployFolder>
-    <SitecoreAccessGuid>983548a9-7ee2-453e-b212-440b9e3d56b2</SitecoreAccessGuid>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
       <Value>$(AssemblyFileVersion)</Value>
