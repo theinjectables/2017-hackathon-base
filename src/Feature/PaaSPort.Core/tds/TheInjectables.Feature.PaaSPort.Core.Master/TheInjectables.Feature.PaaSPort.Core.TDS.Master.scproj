@@ -53,6 +53,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system\Modules\Azure PaaSPort\Web Apps.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -72,6 +73,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Azure PaaSPort.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Base Templates.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -87,6 +89,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Base Templates\_PaaSPort\Resource Details\ResourceName.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Folders.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -94,6 +97,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Folders\Web Apps.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Services.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -101,6 +105,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\Core\Services\Web App.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />

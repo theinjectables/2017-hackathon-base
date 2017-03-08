@@ -3,7 +3,7 @@ version: 1
 id: {F403EA59-0C0D-45B5-8462-04C465CE5EA2}
 database: master
 path: /sitecore/templates/Feature/PaaSPort/Core
-parent: {C34B48BE-09E4-47EE-BF87-85B646B71921}
+parent: {BE85BD51-8286-4711-9481-5DDDBEB9D2A7}
 name: Core
 master: {00000000-0000-0000-0000-000000000000}
 template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
@@ -13,7 +13,7 @@ created: 20170304T052417Z
 ----version----
 language: en
 version: 1
-revision: f8e477ab-6cd0-42c7-8553-5be6260c6bd5
+revision: a0136c45-fd58-4484-8621-81419c53e9cc
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f8e477ab-6cd0-42c7-8553-5be6260c6bd5
+a0136c45-fd58-4484-8621-81419c53e9cc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170305T000844Z
+20170308T182827Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
