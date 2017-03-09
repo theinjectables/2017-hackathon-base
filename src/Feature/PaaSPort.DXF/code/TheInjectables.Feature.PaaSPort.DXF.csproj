@@ -113,6 +113,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Azure.Management.Fluent, Version=1.0.0.50, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\packages\Microsoft.Azure.Management.Fluent.1.0.0-beta50\lib\net45\Microsoft.Azure.Management.Fluent.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Azure.Management.ResourceManager.Fluent, Version=1.0.0.50, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.Azure.Management.ResourceManager.Fluent.1.0.0-beta50\lib\net45\Microsoft.Azure.Management.ResourceManager.Fluent.dll</HintPath>
       <Private>True</Private>
@@ -194,9 +198,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Feature.PaaSPort.DXF.Providers.Azure.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\PaaSPort.Abstractions\code\TheInjectables.Foundation.PaaSPort.Abstractions.csproj">

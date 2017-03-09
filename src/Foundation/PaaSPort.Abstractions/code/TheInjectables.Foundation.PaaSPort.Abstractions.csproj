@@ -194,6 +194,14 @@
       <HintPath>..\..\..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Sitecore.DataExchange, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.DataExchange.NoReferences.1.2.161212\lib\NET452\Sitecore.DataExchange.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.8.2.161221\lib\NET452\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.WebRequest" />
@@ -217,7 +225,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\Authentication\IAzureCredential.cs" />
+    <Compile Include="Client\BaseAzureManager.cs" />
     <Compile Include="Client\IAzureManager.cs" />
+    <Compile Include="Client\IAzureServiceManager.cs" />
+    <Compile Include="Pipelines\AzureServiceContext.cs" />
+    <Compile Include="Pipelines\AzureServicePipelineArgs.cs" />
+    <Compile Include="Pipelines\BaseAzureServiceProcessor.cs" />
+    <Compile Include="Pipelines\IAzureServicePipelineArgs.cs" />
+    <Compile Include="Pipelines\IAzureServiceProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

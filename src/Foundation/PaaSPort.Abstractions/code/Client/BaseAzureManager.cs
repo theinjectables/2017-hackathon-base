@@ -4,10 +4,9 @@ using Microsoft.Azure.Management.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent.Authentication;
 using Microsoft.Azure.Management.Resource.Fluent.Core;
-using TheInjectables.Foundation.PaaSPort.Abstractions.Client;
 using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
 
-namespace TheInjectables.Feature.PaaSPort.Azure.Client
+namespace TheInjectables.Foundation.PaaSPort.Abstractions.Client
 {
     public abstract class BaseAzureManager : IAzureManager
     {
@@ -31,7 +30,7 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
                 var servicePrincipal = new ServicePrincipalLoginInformation
                 {
                     ClientId = _credentials.ClientId,
-                    ClientSecret = _credentials.PassPhrase
+                    ClientSecret = _credentials.Key
                 };
 
                 var credentials = new AzureCredentials(servicePrincipal, _credentials.TenantId, AzureEnvironment.AzureGlobalCloud);

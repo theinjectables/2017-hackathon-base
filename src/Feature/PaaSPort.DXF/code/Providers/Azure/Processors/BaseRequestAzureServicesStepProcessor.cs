@@ -11,6 +11,8 @@ using Sitecore.DataExchange.Processors.PipelineSteps;
 using Sitecore.Services.Core.Diagnostics;
 using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Extensions;
 using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins;
+using TheInjectables.Foundation.PaaSPort.Abstractions.Client;
+using TheInjectables.Foundation.PaaSPort.Abstractions.Pipelines;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
@@ -22,7 +24,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
         {
         }
 
-        protected abstract IPlugin ReadDataFromAzureServices(Endpoint endpoint, PipelineStep pipelineStep, PipelineContext pipelineContext, ILogger logger, AzureSettings settings);
+        protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName, ILogger logger);
 
         protected override void ReadData(Endpoint endpoint, PipelineStep pipelineStep, PipelineContext pipelineContext)
         {
@@ -58,12 +60,12 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
                 logger.Error($"Required setting 'Key' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
-            if (string.IsNullOrWhiteSpace(settings.Client))
+            if (string.IsNullOrWhiteSpace(settings.ClientId))
             {
                 logger.Error($"Required setting 'Client' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
-            if (string.IsNullOrWhiteSpace(settings.Subscription))
+            if (string.IsNullOrWhiteSpace(settings.SubscriptionId))
             {
                 logger.Error($"Required setting 'Subscription' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
@@ -73,19 +75,29 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
                 logger.Error($"Required setting 'ServiceManagerConfigurationPath' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
-
-            // this should never be true because we assert when creating the type, but just as a fallback in case things change...
+            if (string.IsNullOrWhiteSpace(settings.ServicePipelineName))
+            {
+                logger.Error($"Required setting 'Subscription' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
+                return;
+            }
             if (settings.ServiceManager == null)
             {
-                logger.Error($"Type specified in configuration node '{settings.ServiceManagerConfigurationPath}' (ServiceManagerConfigurationPath) was not found. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
+                logger.Error($"Type specified for required setting 'ServiceManagerConfigurationPath' on the Endpoint was not found. The `ServiceManager` property was null. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
 
-            // get the plugin containing the read data
-            var dataPlugin = ReadDataFromAzureServices(endpoint, pipelineStep, pipelineContext, logger, settings);
+            // get the azure service from the manager
+            var azureService = settings.ServiceManager.GetAzureService(settings);
 
-            //add the plugin to the pipeline context
-            pipelineContext.Plugins.Add(dataPlugin);
+            // construct context for the service pipeline and run the pipeline
+            using (new AzureServiceContext(azureService))
+            {
+                // execute the pipeline and add the resulting plugin containing the retrieved data to the pipeline context
+                var dataPlugin = ExecuteServicePipeline(settings.ServicePipelineName, logger);
+
+                //add the plugin to the DXF pipeline context
+                pipelineContext.Plugins.Add(dataPlugin);
+            }
         }
     }
 }

@@ -3,23 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using TheInjectables.Foundation.PaaSPort.Abstractions.Client;
+using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins
 {
-    public class AzureSettings : Sitecore.DataExchange.IPlugin
+    public class AzureSettings : Sitecore.DataExchange.IPlugin, IAzureCredential
     {
         public string TenantId { get; set; }
         public string Key { get; set; }
-        public string Client { get; set; }
-        public string Subscription { get; set; }
+        public string ClientId { get; set; }
+        public string SubscriptionId { get; set; }
 
         public string ServiceManagerConfigurationPath { get; set; }
-        private IAzureManager _serviceManager;
-        public IAzureManager ServiceManager 
-            => _serviceManager ??
-                (_serviceManager = !string.IsNullOrEmpty(ServiceManagerConfigurationPath)
-                    ? Sitecore.Configuration.Factory.CreateObject(ServiceManagerConfigurationPath, true) as IAzureManager
-                    : null);
+
+        public IAzureServiceManager ServiceManager
+            => Sitecore.Configuration.Factory.CreateObject(ServiceManagerConfigurationPath, true) as IAzureServiceManager;
+
+        public string ServicePipelineName { get; set; }
 
         public AzureSettings()
         {

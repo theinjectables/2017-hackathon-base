@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {9AB78760-43CF-477C-8393-12BFA626DC9E}
+id: {E0CB9EA1-C4F4-47D9-B645-59B470028C65}
 database: master
-path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Endpoints/Azure Endpoint/AzureCredentialSettings/Client
+path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Endpoints/Azure Endpoint/Settings/ServiceManagerConfigurationPath
 parent: {BE0D4BA3-0D03-46A3-B896-9F88909283CD}
-name: Client
+name: ServiceManagerConfigurationPath
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20170304T171548Z
+created: 20170309T141621Z
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
@@ -23,12 +23,19 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+500
 ----version----
 language: en
 version: 1
-revision: d48c0661-f411-472c-b529-ade33cf29a30
+revision: 90b16766-f245-41ce-bd05-6ac19522f224
 
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 34
+
+Service Manager Configuration Path
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -42,7 +49,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20170304T171548Z
+20170309T141621Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d48c0661-f411-472c-b529-ade33cf29a30
+90b16766-f245-41ce-bd05-6ac19522f224
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T172358Z
+20170309T155229Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

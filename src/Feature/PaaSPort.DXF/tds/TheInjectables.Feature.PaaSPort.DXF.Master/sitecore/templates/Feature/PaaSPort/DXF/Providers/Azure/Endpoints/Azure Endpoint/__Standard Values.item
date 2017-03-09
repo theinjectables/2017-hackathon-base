@@ -16,13 +16,6 @@ version: 1
 revision: 17c0ac58-959c-494e-b1af-b0045664c014
 
 ----field----
-field: {54621661-36B1-4DE5-801E-E874493D75F6}
-name: ServiceManagerConfigurationPath
-key: servicemanagerconfigurationpath
-content-length: 63
-
-paasport/providers/azure/endpoints/azureEndpoint/serviceManager
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

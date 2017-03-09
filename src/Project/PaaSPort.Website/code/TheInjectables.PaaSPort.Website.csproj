@@ -240,6 +240,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.txt" />
     <Content Include="util\TestAzure.aspx" />
   </ItemGroup>
   <ItemGroup>
