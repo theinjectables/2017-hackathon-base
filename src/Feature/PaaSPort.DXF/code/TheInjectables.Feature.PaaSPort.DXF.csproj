@@ -186,14 +186,14 @@
   <ItemGroup>
     <Compile Include="Providers\Azure\Converters\DataAccess\ValueAccessors\PropertyValueAccessorConverter.cs" />
     <Compile Include="Providers\Azure\Converters\Endpoints\AzureEndpointConverter.cs" />
-    <Compile Include="Providers\Azure\Converters\PipelineSteps\RequestAzureServicesStepConverter.cs" />
+    <Compile Include="Providers\Azure\Converters\PipelineSteps\AzureServicesRequestStepConverter.cs" />
     <Compile Include="Providers\Azure\Extensions\EndpointExtensions.cs" />
     <Compile Include="Providers\Azure\Models\ItemModels\Endpoints\AzureEndpointItemModel.cs" />
-    <Compile Include="Providers\Azure\Models\ItemModels\PipelineSteps\RequestAzureServicesStepItemModel.cs" />
+    <Compile Include="Providers\Azure\Models\ItemModels\PipelineSteps\AzureServicesRequestStepItemModel.cs" />
     <Compile Include="Providers\Azure\Plugins\AzureSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Providers\Azure\Processors\BaseRequestAzureServicesStepProcessor.cs" />
-    <Compile Include="Providers\Azure\Processors\RequestAzureResourceGroupsStepProcessor.cs" />
+    <Compile Include="Providers\Azure\Processors\BasePipelinedAzureServicesRequestStepProcessor.cs" />
+    <Compile Include="Providers\Azure\Processors\DefaultPipelinedAzureRequestStepProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

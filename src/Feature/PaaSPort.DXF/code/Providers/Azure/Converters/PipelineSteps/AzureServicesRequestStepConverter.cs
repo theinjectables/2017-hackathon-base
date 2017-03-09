@@ -11,11 +11,11 @@ using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Models.ItemModels.Pipe
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.PipelineSteps
 {
-    public class RequestAzureServicesStepConverter : BasePipelineStepConverter<ItemModel>
+    public class AzureServicesRequestStepConverter : BasePipelineStepConverter<ItemModel>
     {
         private static readonly Guid TemplateId = Guid.Parse("{F36BF39C-2054-41E4-866C-B3F81382838D}");
 
-        public RequestAzureServicesStepConverter(IItemModelRepository repository) : base(repository)
+        public AzureServicesRequestStepConverter(IItemModelRepository repository) : base(repository)
         {
             SupportedTemplateIds.Add(TemplateId);
         }
@@ -29,7 +29,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Pipelin
         {
             var settings = new EndpointSettings();
 
-            var endpointFrom = ConvertReferenceToModel<Endpoint>(source, RequestAzureServicesStepItemModel.EndpointFrom);
+            var endpointFrom = ConvertReferenceToModel<Endpoint>(source, AzureServicesRequestStepItemModel.EndpointFrom);
             if (endpointFrom != null)
             {
                 settings.EndpointFrom = endpointFrom;
