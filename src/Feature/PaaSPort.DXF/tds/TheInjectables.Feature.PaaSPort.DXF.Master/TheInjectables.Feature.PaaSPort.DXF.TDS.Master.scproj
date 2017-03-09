@@ -209,19 +209,19 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\Endpoints.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\Endpoints.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\Endpoints\EndpointFrom.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\Endpoints\EndpointFrom.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

@@ -2,12 +2,12 @@
 version: 1
 id: {A09BC695-8FB0-4B75-95EE-B1B29F92C2D3}
 database: master
-path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Pipeline Steps/Request Azure Resource Groups Pipeline Step/__Standard Values
+path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Pipeline Steps/Pipelined Azure Services Request Pipeline Step/__Standard Values
 parent: {F36BF39C-2054-41E4-866C-B3F81382838D}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
 template: {F36BF39C-2054-41E4-866C-B3F81382838D}
-templatekey: Request Azure Resource Groups Pipeline Step
+templatekey: Pipelined Azure Services Request Pipeline Step
 created: 20170304T214448Z
 
 ----field----
@@ -16,18 +16,18 @@ name: ConverterType
 key: convertertype
 content-length: 147
 
-TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.PipelineSteps.RequestAzureServicesStepConverter, TheInjectables.Feature.PaaSPort.DXF
+TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.PipelineSteps.AzureServicesRequestStepConverter, TheInjectables.Feature.PaaSPort.DXF
 ----field----
 field: {A83A2EB2-BFA1-4D3F-9F17-0CC6C9A91C42}
 name: ProcessorType
 key: processortype
-content-length: 139
+content-length: 141
 
-TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors.RequestAzureResourceGroupsStepProcessor, TheInjectables.Feature.PaaSPort.DXF
+TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors.DefaultPipelinedAzureRequestStepProcessor, TheInjectables.Feature.PaaSPort.DXF
 ----version----
 language: en
 version: 1
-revision: d6b9ee22-3ea7-4c65-9823-e1929f6c626b
+revision: 3352ad62-fbab-43a0-9ffd-895c2a5c68d7
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d6b9ee22-3ea7-4c65-9823-e1929f6c626b
+3352ad62-fbab-43a0-9ffd-895c2a5c68d7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T214811Z
+20170309T194531Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

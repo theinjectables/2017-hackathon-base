@@ -17,7 +17,7 @@ using TheInjectables.Foundation.PaaSPort.Abstractions.Pipelines;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
-    public class RequestAzureResourceGroupsStepProcessor : BaseRequestAzureServicesStepProcessor
+    public class DefaultPipelinedAzureRequestStepProcessor : BasePipelinedAzureServicesRequestStepProcessor
     {
         protected override IPlugin ExecuteServicePipeline(string servicePipelineName, ILogger logger)
         {

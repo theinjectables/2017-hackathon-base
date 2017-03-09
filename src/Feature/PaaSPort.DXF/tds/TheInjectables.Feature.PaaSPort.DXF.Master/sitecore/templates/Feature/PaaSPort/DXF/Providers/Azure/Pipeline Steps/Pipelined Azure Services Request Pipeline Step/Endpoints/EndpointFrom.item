@@ -2,7 +2,7 @@
 version: 1
 id: {13388626-F313-477A-8D76-63AF53DFC81C}
 database: master
-path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Pipeline Steps/Request Azure Resource Groups Pipeline Step/Endpoints/EndpointFrom
+path: /sitecore/templates/Feature/PaaSPort/DXF/Providers/Azure/Pipeline Steps/Pipelined Azure Services Request Pipeline Step/Endpoints/EndpointFrom
 parent: {931335E3-CFAA-4826-A5E5-F0417DEC077A}
 name: EndpointFrom
 master: {00000000-0000-0000-0000-000000000000}

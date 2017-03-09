@@ -17,10 +17,10 @@ using TheInjectables.Foundation.PaaSPort.Abstractions.Pipelines;
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
     [RequiredEndpointPlugins(typeof(AzureSettings))]
-    public abstract class BaseRequestAzureServicesStepProcessor : BaseReadDataStepProcessor
+    public abstract class BasePipelinedAzureServicesRequestStepProcessor : BaseReadDataStepProcessor
     {
         // ReSharper disable once PublicConstructorInAbstractClass
-        public BaseRequestAzureServicesStepProcessor()
+        public BasePipelinedAzureServicesRequestStepProcessor()
         {
         }
 
