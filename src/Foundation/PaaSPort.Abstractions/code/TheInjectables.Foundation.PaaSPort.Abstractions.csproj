@@ -225,8 +225,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\Authentication\IAzureCredential.cs" />
-    <Compile Include="Client\BaseAzureManager.cs" />
-    <Compile Include="Client\IAzureManager.cs" />
     <Compile Include="Client\IAzureServiceManager.cs" />
     <Compile Include="Pipelines\AzureServiceContext.cs" />
     <Compile Include="Pipelines\AzureServicePipelineArgs.cs" />

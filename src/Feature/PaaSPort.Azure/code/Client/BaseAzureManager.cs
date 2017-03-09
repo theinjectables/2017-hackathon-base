@@ -6,8 +6,9 @@ using Microsoft.Azure.Management.Resource.Fluent.Authentication;
 using Microsoft.Azure.Management.Resource.Fluent.Core;
 using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
 
-namespace TheInjectables.Foundation.PaaSPort.Abstractions.Client
+namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
+    // TODO: delete me
     public abstract class BaseAzureManager : IAzureManager
     {
         private readonly IAzureCredential _credentials;

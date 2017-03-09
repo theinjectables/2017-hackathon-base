@@ -6,6 +6,7 @@ using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
+    // TODO: delete me
     public class DefaultAzureManager : BaseAzureManager
     {
         public DefaultAzureManager(IAzureCredential credentials) : base(credentials)

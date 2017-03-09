@@ -1,10 +1,10 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.Azure.Management.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent;
 
-namespace TheInjectables.Foundation.PaaSPort.Abstractions.Client
+namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
+    // TODO: delete me
     public interface IAzureManager
     {
         bool Connected { get; }

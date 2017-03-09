@@ -229,8 +229,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client\Authentication\AzureCredential.cs" />
+    <Compile Include="Client\BaseAzureManager.cs" />
     <Compile Include="Client\DefaultAzureManager.cs" />
     <Compile Include="Client\DefaultAzureServiceManager.cs" />
+    <Compile Include="Client\IAzureManager.cs" />
     <Compile Include="Pipelines\GetResourceGroups\GetResourceGroupsArgs.cs" />
     <Compile Include="Pipelines\GetResourceGroups\BaseGetResourceGroupsProcessor.cs" />
     <Compile Include="Pipelines\GetResourceGroups\GetResourceGroupsProcessor.cs" />
