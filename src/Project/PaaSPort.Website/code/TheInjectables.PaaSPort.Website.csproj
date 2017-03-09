@@ -234,9 +234,9 @@
       <Project>{0ba057dc-0045-4891-8103-30092c89e851}</Project>
       <Name>TheInjectables.Feature.PaaSPort.Azure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Abstractions\code\TheInjectables.Foundation.PaaSPort.Abstractions.csproj">
+    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Azure\code\TheInjectables.Foundation.PaaSPort.Azure.csproj">
       <Project>{4e756bc9-d83c-4e63-8d7a-78d4cbbf7ef0}</Project>
-      <Name>TheInjectables.Foundation.PaaSPort.Abstractions</Name>
+      <Name>TheInjectables.Foundation.PaaSPort.Azure</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

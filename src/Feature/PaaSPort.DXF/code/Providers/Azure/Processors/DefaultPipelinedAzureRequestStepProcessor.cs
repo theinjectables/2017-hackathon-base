@@ -12,8 +12,7 @@ using Sitecore.Pipelines;
 using Sitecore.Services.Core.Diagnostics;
 using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Extensions;
 using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins;
-using TheInjectables.Foundation.PaaSPort.Abstractions.Client;
-using TheInjectables.Foundation.PaaSPort.Abstractions.Pipelines;
+using TheInjectables.Foundation.PaaSPort.Azure.Pipelines;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {

@@ -1,4 +1,4 @@
-﻿namespace TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication
+﻿namespace TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication
 {
     public interface IAzureCredential
     {

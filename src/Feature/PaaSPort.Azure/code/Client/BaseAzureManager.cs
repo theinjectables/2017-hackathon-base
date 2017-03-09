@@ -4,7 +4,7 @@ using Microsoft.Azure.Management.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent.Authentication;
 using Microsoft.Azure.Management.Resource.Fluent.Core;
-using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
+using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {

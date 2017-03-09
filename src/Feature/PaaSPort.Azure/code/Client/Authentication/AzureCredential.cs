@@ -1,4 +1,4 @@
-﻿using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
+﻿using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Client.Authentication
 {

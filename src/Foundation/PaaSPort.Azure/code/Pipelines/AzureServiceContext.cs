@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Microsoft.Azure.Management.Fluent;
+﻿using Microsoft.Azure.Management.Fluent;
 using Sitecore.Common;
 
-namespace TheInjectables.Foundation.PaaSPort.Abstractions.Pipelines
+namespace TheInjectables.Foundation.PaaSPort.Azure.Pipelines
 {
     public class AzureServiceContext : Switcher<IAzure, AzureServiceContext>
     {

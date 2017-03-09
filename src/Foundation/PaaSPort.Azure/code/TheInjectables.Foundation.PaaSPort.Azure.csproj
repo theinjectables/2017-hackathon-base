@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TheInjectables.Foundation.PaaSPort.Abstractions</RootNamespace>
-    <AssemblyName>TheInjectables.Foundation.PaaSPort.Abstractions</AssemblyName>
+    <RootNamespace>TheInjectables.Foundation.PaaSPort.Azure</RootNamespace>
+    <AssemblyName>TheInjectables.Foundation.PaaSPort.Azure</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -224,8 +224,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\Authentication\IAzureCredential.cs" />
-    <Compile Include="Client\IAzureServiceManager.cs" />
+    <Compile Include="Service\Authentication\IAzureCredential.cs" />
+    <Compile Include="Service\IAzureServiceManager.cs" />
     <Compile Include="Pipelines\AzureServiceContext.cs" />
     <Compile Include="Pipelines\AzureServicePipelineArgs.cs" />
     <Compile Include="Pipelines\BaseAzureServiceProcessor.cs" />

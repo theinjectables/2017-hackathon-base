@@ -243,18 +243,17 @@
     <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Abstractions\code\TheInjectables.Foundation.PaaSPort.Abstractions.csproj">
-      <Project>{4e756bc9-d83c-4e63-8d7a-78d4cbbf7ef0}</Project>
-      <Name>TheInjectables.Foundation.PaaSPort.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="App_Config\Include\Feature\Feature.PaaSPort.Azure.config">
       <SubType>Designer</SubType>
     </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Azure\code\TheInjectables.Foundation.PaaSPort.Azure.csproj">
+      <Project>{4e756bc9-d83c-4e63-8d7a-78d4cbbf7ef0}</Project>
+      <Name>TheInjectables.Foundation.PaaSPort.Azure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
