@@ -24,7 +24,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
             var args = new AzureServicePipelineArgs<IterableDataSettings>();
 
             // get the pipeline from the config
-            CorePipeline.Run(servicePipelineName, args, "PaaSPort");
+            CorePipeline.Run(servicePipelineName, args, Sitecore.Configuration.Settings.GetSetting("PaaSPort.PipelineGroupName"));
 
             return args.Result;
         }
