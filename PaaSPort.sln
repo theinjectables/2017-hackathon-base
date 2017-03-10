@@ -49,6 +49,8 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.Feature.PaaS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheInjectables.Foundation.PaaSPort.Azure", "src\Foundation\PaaSPort.Azure\code\TheInjectables.Foundation.PaaSPort.Azure.csproj", "{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TheInjectables.PaaSPort.Website.TDS.Master", "src\Project\PaaSPort.Website\tds\TheInjectables.PaaSPort.Website.TDS.Master\TheInjectables.PaaSPort.Website.TDS.Master.scproj", "{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		always|Any CPU = always|Any CPU
@@ -245,6 +247,30 @@ Global
 		{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0}.Release|x64.ActiveCfg = Release|x64
 		{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0}.Release|x64.Build.0 = Release|x64
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|Any CPU.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|Any CPU.Deploy.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|x64.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|x64.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.always|x64.Deploy.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|Any CPU.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|Any CPU.Deploy.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|x64.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|x64.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.ci|x64.Deploy.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|x64.Build.0 = Release|Any CPU
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A}.Release|x64.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,5 +293,6 @@ Global
 		{0BADE5F0-A892-45E4-A086-FE86EFA8C2EC} = {868F6CB1-C533-46AF-BA73-C8D5CD3441F4}
 		{67290F03-CC8C-4C50-80CB-C4893AB28360} = {868F6CB1-C533-46AF-BA73-C8D5CD3441F4}
 		{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0} = {EE8F9E52-2800-43A2-9301-1155A6067963}
+		{CEBC2204-6423-46FC-8378-EAD6DCB8CB1A} = {B4F3A1A3-BC42-4FCB-BE07-5155816B71E8}
 	EndGlobalSection
 EndGlobal
