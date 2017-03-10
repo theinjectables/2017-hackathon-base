@@ -53,6 +53,7 @@
     </SitecoreItem>
     <SitecoreItem Include="sitecore\content\Azure PaaSPort\Resource Groups.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
     <SitecoreItem Include="sitecore\system.item">
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
