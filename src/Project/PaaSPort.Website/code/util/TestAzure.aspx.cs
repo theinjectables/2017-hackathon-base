@@ -11,16 +11,16 @@ namespace TheInjectables.Project.PaaSPort.Website.util
         {
             CheckSecurity();
 
-            string tenantid = "7b4c6035-b43b-4dc4-b847-b01a13ad108d";
-            string key = "PaaSPort12345 ";
-            string client = "881b3fc5-2ad4-4fdf-8f14-ebf82195e28c";
-            string subscription = "3f5e6482-7c15-40fb-a7e0-4849a9bbdd3b";
+            string tenantid = "4346f2c6-6ec4-491d-9a3d-c4b3877e616b";
+            string key = "UPMUIU+kEA7Sc4UwuwcgrEM0iu1bISjRrlsdLvgCSM4=";
+            string client = "b8060a58-e98b-4e58-ba11-22269a084e2c";
+            string subscription = "ffecf118-fbde-455a-ad01-8ad9541a9827";
 
             var credential = new AzureCredential()
             {
                 ClientId = client,
                 TenantId = tenantid,
-                PassPhrase = key,
+                Key = key,
                 SubscriptionId = subscription
             };
 

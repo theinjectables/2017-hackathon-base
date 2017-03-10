@@ -157,31 +157,31 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\AzureCredentialSettings.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\AzureCredentialSettings\Client.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\ClientId.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\AzureCredentialSettings\Key.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\Key.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\AzureCredentialSettings\Subscription.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\ServiceManagerConfigurationPath.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\AzureCredentialSettings\TenantId.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\ServicePipelineName.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\ClientSettings.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\SubscriptionId.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\ClientSettings\ServiceManagerConfigurationPath.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Endpoints\Azure Endpoint\Settings\TenantId.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -209,19 +209,19 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\Endpoints.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\Endpoints.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Request Azure Resource Groups Pipeline Step\Endpoints\EndpointFrom.item">
+    <SitecoreItem Include="sitecore\templates\Feature\PaaSPort\DXF\Providers\Azure\Pipeline Steps\Pipelined Azure Services Request Pipeline Step\Endpoints\EndpointFrom.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

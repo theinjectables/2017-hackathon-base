@@ -10,18 +10,18 @@ template: {9E41746D-B14C-4FFA-B70B-8F522901CC9E}
 templatekey: Azure Endpoint
 created: 20170304T175732Z
 
+----field----
+field: {3C7F78CC-0C5C-4076-80EF-9A49FDA5FF96}
+name: ConverterType
+key: convertertype
+content-length: 132
+
+TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoints.AzureEndpointConverter, TheInjectables.Feature.PaaSPort.DXF
 ----version----
 language: en
 version: 1
-revision: 17c0ac58-959c-494e-b1af-b0045664c014
+revision: d537a868-5857-4581-9751-65cb3f9a844c
 
-----field----
-field: {54621661-36B1-4DE5-801E-E874493D75F6}
-name: ServiceManagerConfigurationPath
-key: servicemanagerconfigurationpath
-content-length: 63
-
-paasport/providers/azure/endpoints/azureEndpoint/serviceManager
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-17c0ac58-959c-494e-b1af-b0045664c014
+d537a868-5857-4581-9751-65cb3f9a844c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170304T182957Z
+20170309T194418Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

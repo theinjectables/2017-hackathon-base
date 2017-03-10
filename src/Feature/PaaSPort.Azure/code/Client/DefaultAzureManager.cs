@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Azure.Management.AppService.Fluent;
 using Microsoft.Azure.Management.Resource.Fluent;
-using TheInjectables.Foundation.PaaSPort.Abstractions.Client.Authentication;
+using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
+    // TODO: delete me
     public class DefaultAzureManager : BaseAzureManager
     {
         public DefaultAzureManager(IAzureCredential credentials) : base(credentials)
         {
-            
         }
 
         public override IEnumerable<IResourceGroup> GetResourceGroups()

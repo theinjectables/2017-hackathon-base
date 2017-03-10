@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {24A0D14C-9F83-401B-B857-5FC15F3D040F}
+database: master
+path: /sitecore/system/Data Exchange/Demo - Development Team/Data Access/Value Accessor Sets/Providers/Azure/Azure Resource Group/Region Name
+parent: {85A29E92-8CE5-4394-95D3-A306C570C369}
+name: Region Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {729AEFFB-B5BD-4CD4-958F-E25B50948AC8}
+templatekey: Property Value Accessor
+created: 20170309T204244Z
+
+----field----
+field: {06FD1C3E-A7F7-4CD2-A54E-A995D7A9E4DE}
+name: PropertyName
+key: propertyname
+content-length: 10
+
+RegionName
+----version----
+language: en
+version: 1
+revision: 56fe1238-8bcd-4ecd-96c0-70218207fbdb
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170309T204244Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56fe1238-8bcd-4ecd-96c0-70218207fbdb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170309T212538Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

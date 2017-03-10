@@ -113,6 +113,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Azure.Management.Fluent, Version=1.0.0.50, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\packages\Microsoft.Azure.Management.Fluent.1.0.0-beta50\lib\net45\Microsoft.Azure.Management.Fluent.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Azure.Management.ResourceManager.Fluent, Version=1.0.0.50, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.Azure.Management.ResourceManager.Fluent.1.0.0-beta50\lib\net45\Microsoft.Azure.Management.ResourceManager.Fluent.dll</HintPath>
       <Private>True</Private>
@@ -182,30 +186,27 @@
   <ItemGroup>
     <Compile Include="Providers\Azure\Converters\DataAccess\ValueAccessors\PropertyValueAccessorConverter.cs" />
     <Compile Include="Providers\Azure\Converters\Endpoints\AzureEndpointConverter.cs" />
-    <Compile Include="Providers\Azure\Converters\PipelineSteps\RequestAzureServicesStepConverter.cs" />
+    <Compile Include="Providers\Azure\Converters\PipelineSteps\AzureServicesRequestStepConverter.cs" />
     <Compile Include="Providers\Azure\Extensions\EndpointExtensions.cs" />
     <Compile Include="Providers\Azure\Models\ItemModels\Endpoints\AzureEndpointItemModel.cs" />
-    <Compile Include="Providers\Azure\Models\ItemModels\PipelineSteps\RequestAzureServicesStepItemModel.cs" />
+    <Compile Include="Providers\Azure\Models\ItemModels\PipelineSteps\AzureServicesRequestStepItemModel.cs" />
     <Compile Include="Providers\Azure\Plugins\AzureSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Providers\Azure\Processors\BaseRequestAzureServicesStepProcessor.cs" />
-    <Compile Include="Providers\Azure\Processors\RequestAzureResourceGroupsStepProcessor.cs" />
+    <Compile Include="Providers\Azure\Processors\BasePipelinedAzureServicesRequestStepProcessor.cs" />
+    <Compile Include="Providers\Azure\Processors\DefaultPipelinedAzureRequestStepProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Feature.PaaSPort.DXF.Providers.Azure.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Abstractions\code\TheInjectables.Foundation.PaaSPort.Abstractions.csproj">
-      <Project>{4E756BC9-D83C-4E63-8D7A-78D4CBBF7EF0}</Project>
-      <Name>TheInjectables.Foundation.PaaSPort.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\PaaSPort.Azure\code\TheInjectables.Foundation.PaaSPort.Azure.csproj">
+      <Project>{4e756bc9-d83c-4e63-8d7a-78d4cbbf7ef0}</Project>
+      <Name>TheInjectables.Foundation.PaaSPort.Azure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
