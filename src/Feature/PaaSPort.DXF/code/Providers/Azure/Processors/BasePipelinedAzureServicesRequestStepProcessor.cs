@@ -23,7 +23,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
         {
         }
 
-        protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName, ILogger logger);
+        protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName, BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger);
 
         protected override void ReadData(Endpoint endpoint, PipelineStep pipelineStep, PipelineContext pipelineContext)
         {
@@ -79,9 +79,19 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
                 logger.Error($"Required setting 'Subscription' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
+            if (string.IsNullOrWhiteSpace(settings.ServicePipelineArgsConfigurationPath))
+            {
+                logger.Error($"Required setting 'ServicePipelineArgsConfigurationPath' was not set on the endpoint. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
+                return;
+            }
             if (settings.ServiceManager == null)
             {
                 logger.Error($"Type specified for required setting 'ServiceManagerConfigurationPath' on the Endpoint was not found. The `ServiceManager` property was null. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
+                return;
+            }
+            if (settings.ServicePipelineArgs == null)
+            {
+                logger.Error($"Type specified for required setting 'ServicePipelineArgsConfigurationPath' on the Endpoint was not found. The `ServicePipelineArgs` property was null. (pipeline step: {pipelineStep.Name}, endpoint: {endpoint.Name})");
                 return;
             }
 
@@ -91,8 +101,9 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
             // construct context for the service pipeline and run the pipeline
             using (new AzureServiceContext(azureService))
             {
+
                 // execute the pipeline and add the resulting plugin containing the retrieved data to the pipeline context
-                var dataPlugin = ExecuteServicePipeline(settings.ServicePipelineName, logger);
+                var dataPlugin = ExecuteServicePipeline(settings.ServicePipelineName, settings.ServicePipelineArgs, logger);
 
                 //add the plugin to the DXF pipeline context
                 pipelineContext.Plugins.Add(dataPlugin);

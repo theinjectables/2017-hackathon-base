@@ -224,10 +224,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pipelines\BaseAzureServicePipelineArgs.cs" />
+    <Compile Include="Pipelines\IAzureServicePipelineArgs{TResult}.cs" />
     <Compile Include="Service\Authentication\IAzureCredential.cs" />
     <Compile Include="Service\IAzureServiceManager.cs" />
     <Compile Include="Pipelines\AzureServiceContext.cs" />
-    <Compile Include="Pipelines\AzureServicePipelineArgs.cs" />
+    <Compile Include="Pipelines\BaseAzureServicePipelineArgs{TResult}.cs" />
     <Compile Include="Pipelines\BaseAzureServiceProcessor.cs" />
     <Compile Include="Pipelines\IAzureServicePipelineArgs.cs" />
     <Compile Include="Pipelines\IAzureServiceProcessor.cs" />

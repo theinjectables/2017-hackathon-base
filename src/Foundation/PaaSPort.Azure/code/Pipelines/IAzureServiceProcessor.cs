@@ -2,8 +2,8 @@
 
 namespace TheInjectables.Foundation.PaaSPort.Azure.Pipelines
 {
-    public interface IAzureServiceProcessor<TArgs, TResult> where TArgs : AzureServicePipelineArgs<TResult>
-        where TResult : IPlugin
+    public interface IAzureServiceProcessor<in TArgs, TResult> where TArgs : BaseAzureServicePipelineArgs<TResult>
+        where TResult : class, IPlugin
     {
         void Process(TArgs args);
     }

@@ -33,7 +33,8 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoin
                 ClientId = GetStringValue(source, AzureEndpointItemModel.Client),
                 SubscriptionId = GetStringValue(source, AzureEndpointItemModel.Subscription),
                 ServiceManagerConfigurationPath = GetStringValue(source, AzureEndpointItemModel.ServiceManagerConfigurationPath),
-                ServicePipelineName = GetStringValue(source, AzureEndpointItemModel.ServicePipelineName)
+                ServicePipelineName = GetStringValue(source, AzureEndpointItemModel.ServicePipelineName),
+                ServicePipelineArgsConfigurationPath = GetStringValue(source, AzureEndpointItemModel.ServicePipelineArgsConfigurationPath)
             };
 
             //add the plugin to the endpoint

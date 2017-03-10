@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Sitecore.DataExchange;
+using TheInjectables.Foundation.PaaSPort.Azure.Pipelines;
 using TheInjectables.Foundation.PaaSPort.Azure.Service;
 using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
@@ -16,10 +18,18 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins
 
         public string ServiceManagerConfigurationPath { get; set; }
 
+        private IAzureServiceManager _serviceManager;
         public IAzureServiceManager ServiceManager
-            => Sitecore.Configuration.Factory.CreateObject(ServiceManagerConfigurationPath, true) as IAzureServiceManager;
+            => _serviceManager ?? 
+               (_serviceManager = Sitecore.Configuration.Factory.CreateObject(ServiceManagerConfigurationPath, true) as IAzureServiceManager);
 
         public string ServicePipelineName { get; set; }
+        public string ServicePipelineArgsConfigurationPath { get; set; }
+
+        private BaseAzureServicePipelineArgs _servicePipelineArgs;
+        public BaseAzureServicePipelineArgs ServicePipelineArgs
+            => _servicePipelineArgs ??
+               (_servicePipelineArgs = Sitecore.Configuration.Factory.CreateObject(ServicePipelineArgsConfigurationPath, true) as BaseAzureServicePipelineArgs);
 
         public AzureSettings()
         {

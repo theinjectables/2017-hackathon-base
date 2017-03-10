@@ -18,15 +18,12 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
     public class DefaultPipelinedAzureRequestStepProcessor : BasePipelinedAzureServicesRequestStepProcessor
     {
-        protected override IPlugin ExecuteServicePipeline(string servicePipelineName, ILogger logger)
+        protected override IPlugin ExecuteServicePipeline(string servicePipelineName, BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger)
         {
-            // get the args
-            var args = new AzureServicePipelineArgs<IterableDataSettings>();
-
             // get the pipeline from the config
-            CorePipeline.Run(servicePipelineName, args, Sitecore.Configuration.Settings.GetSetting("PaaSPort.PipelineGroupName"));
+            CorePipeline.Run(servicePipelineName, servicePipelineArgs, Sitecore.Configuration.Settings.GetSetting("PaaSPort.PipelineGroupName"));
 
-            return args.Result;
+            return servicePipelineArgs.GetResult();
         }
     }
 }

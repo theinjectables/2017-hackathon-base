@@ -16,5 +16,6 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Models.ItemModels.
         public const string ServiceManagerConfigurationPath = "ServiceManagerConfigurationPath";
 
         public const string ServicePipelineName = "ServicePipelineName";
+        public const string ServicePipelineArgsConfigurationPath = "ServicePipelineArgsConfigurationPath";
     }
 }
