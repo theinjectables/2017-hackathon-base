@@ -12,6 +12,7 @@ using Sitecore.Services.Core.Model;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.DataAccess.ValueAccessors
 {
+    // TODO: Delete me... the OOTB class is being used instead
     public class PropertyValueAccessorConverter : ValueAccessorConverter
     {
         private static readonly Guid TemplateId = Guid.Parse("{729AEFFB-B5BD-4CD4-958F-E25B50948AC8}");
