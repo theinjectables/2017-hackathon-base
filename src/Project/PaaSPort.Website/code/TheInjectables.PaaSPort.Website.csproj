@@ -221,13 +221,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="util\TestAzure.aspx.cs">
-      <DependentUpon>TestAzure.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="util\TestAzure.aspx.designer.cs">
-      <DependentUpon>TestAzure.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Feature\PaaSPort.Azure\code\TheInjectables.Feature.PaaSPort.Azure.csproj">
@@ -241,7 +234,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.txt" />
-    <Content Include="util\TestAzure.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
