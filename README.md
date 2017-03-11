@@ -134,5 +134,5 @@ PaaSPort was originally created as a submission for Sitecore Hackathon 2017. Unf
 ## Team Members
 
 - Zachary Kniebel - @zkniebel
-- Pete Navarra - [@SitecoreHacker](https://twitter.com/SitecoreHacker)
+- Pete Navarra - [Tweet @SitecoreHacker](https://twitter.com/SitecoreHacker) - [GitHub: Vapok](https://github.com/vapok)
 - Hetal Dave - @hetaldave
