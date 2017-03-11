@@ -141,7 +141,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Feature\Feature.PaaSPort.Core.Commands.config" />
-    <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
