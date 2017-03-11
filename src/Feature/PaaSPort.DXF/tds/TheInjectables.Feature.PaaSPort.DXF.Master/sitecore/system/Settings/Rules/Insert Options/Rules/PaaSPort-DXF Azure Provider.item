@@ -1,0 +1,104 @@
+----item----
+version: 1
+id: {391A98CB-6C41-4158-8A88-2F1AB4A4501B}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/PaaSPort-DXF Azure Provider
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: PaaSPort-DXF Azure Provider
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+created: 20170304T184504Z
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 2059
+
+<ruleset>
+  <rule uid="{C0968BC5-DEEC-442D-B84B-20A49CF89174}" name="Add Azure Endpoints Root to the Providers Root unless already present">
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="1125E1550D1A413B9449A26D23241CB5" insertoptionid="{FF78E713-B483-4811-952C-993FA6024983}" />
+    </actions>
+    <conditions>
+      <and uid="D01E7126C8964A279C341404846B5FE2">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="21248AF6C8834F1F896D0FE73D72422D" templateid="{6F05FFD0-4C1B-44AE-87E5-B015E1DAC352}" />
+        <condition id="{5CD2292C-32AC-4976-AA4F-A741555D22F8}" uid="B8430171B6A9435AA9D2B2844F06EF1D" query="./*[@@templateid='{9A33529B-5083-4E4B-ACE9-AEBDB84ECEEE}']" except="true" />
+      </and>
+    </conditions>
+  </rule>
+  <rule uid="{6756C527-5A12-4CD1-B7DC-98447454C00B}" name="Add Request Azure Resource Groups Pipeline Step">
+    <conditions>
+      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="849A76FA751C4C0D91B8F828CB74DF29" templateid="{2DC9C843-B841-483C-BB9B-AE0C9386404C}" />
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="DE89377735C649F6BBADB6821B25048B" insertoptionid="{F36BF39C-2054-41E4-866C-B3F81382838D}" />
+    </actions>
+  </rule>
+  <rule uid="{D17327A8-F115-4F73-BA85-1DDBAB691570}" name="Add Property Value Accessor Sets Providers Root">
+    <conditions>
+      <and uid="BE6A2CE2B0F64592AB24CB8F9767560D">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="8F9BC21C40BE4919BBF28DABC79064D1" templateid="{BB7B0FCD-8619-4C50-A012-6BE3BB21A749}" />
+        <condition id="{5CD2292C-32AC-4976-AA4F-A741555D22F8}" uid="AAC4631FB4CB489CBBDB610B520D5671" except="true" query="./*[@@templateid='{23B10FF2-E11B-452A-A868-E2925C83E201}']" />
+      </and>
+    </conditions>
+    <actions>
+      <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="50690BD1BAD0455DA27B22F3C4AAB1FB" insertoptionid="{1D35055E-BA52-4262-9684-58F0DDBF40F2}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 0b8eb1cc-9c05-4650-a597-7dc8ecd5879e
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 96
+
+Add insert options for the Azure provider included with PaaSPort for the Data Exchange Framework
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170304T184504Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b8eb1cc-9c05-4650-a597-7dc8ecd5879e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170304T233806Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

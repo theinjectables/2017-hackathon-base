@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {917DDEB2-AB12-418A-B155-8AE5F3E58789}
+database: master
+path: /sitecore/system/Data Exchange/Demo - Development Team/Data Access/Value Accessor Sets/Providers/Sitecore/Resource Group Item/Name
+parent: {B6F51C20-1BBE-42B3-9A6A-B99064341890}
+name: Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {6F7375CC-9942-4E30-8C63-95281B69C65F}
+templatekey: Sitecore Item Field Value Accessor
+created: 20170309T211757Z
+
+----field----
+field: {A011C1D5-1C40-4420-8592-D0CE0306E0DD}
+name: Field
+key: field
+content-length: 38
+
+{F93379BB-F7F0-422B-8777-279334C711BA}
+----field----
+field: {4E0CF9AC-FBA9-4A32-8DDE-4A57F3B3E05C}
+name: Language
+key: language
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 09d4ccac-0be3-49e8-823e-ad6a0ea1b38b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170309T211757Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09d4ccac-0be3-49e8-823e-ad6a0ea1b38b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170311T141957Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

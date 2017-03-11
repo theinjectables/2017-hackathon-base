@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {E12DBD19-2D46-4E67-91B3-629BC3F39EAA}
+database: master
+path: /sitecore/system/Data Exchange/Demo - Development Team/Endpoints/Providers/Azure/Get Resource Groups
+parent: {171919BE-F09D-4560-8FDB-93AE873814F0}
+name: Get Resource Groups
+master: {00000000-0000-0000-0000-000000000000}
+template: {9E41746D-B14C-4FFA-B70B-8F522901CC9E}
+templatekey: Azure Endpoint
+created: 20170309T203234Z
+
+----version----
+language: en
+version: 1
+revision: 9477f78c-0d5e-4b08-8201-31fb2191b599
+
+----field----
+field: {0979A577-8610-4DDF-B743-B9CE37385133}
+name: TenantId
+key: tenantid
+content-length: 36
+
+4346f2c6-6ec4-491d-9a3d-c4b3877e616b
+----field----
+field: {D85422A7-2A33-47A9-A34D-9DC944D226BF}
+name: Key
+key: key
+content-length: 44
+
+UPMUIU+kEA7Sc4UwuwcgrEM0iu1bISjRrlsdLvgCSM4=
+----field----
+field: {9AB78760-43CF-477C-8393-12BFA626DC9E}
+name: ClientId
+key: clientid
+content-length: 36
+
+b8060a58-e98b-4e58-ba11-22269a084e2c
+----field----
+field: {BB3A418A-9F16-4676-896D-C27382FB3D56}
+name: SubscriptionId
+key: subscriptionid
+content-length: 36
+
+ffecf118-fbde-455a-ad01-8ad9541a9827
+----field----
+field: {E0CB9EA1-C4F4-47D9-B645-59B470028C65}
+name: ServiceManagerConfigurationPath
+key: servicemanagerconfigurationpath
+content-length: 29
+
+paasport/azure/serviceManager
+----field----
+field: {3A2AE3B2-255F-49C6-9C07-AFE2BD68D2EE}
+name: ServicePipelineName
+key: servicepipelinename
+content-length: 17
+
+getResourceGroups
+----field----
+field: {3FFAB504-5D3A-4587-A52B-F6B9FD10F0CC}
+name: ServicePipelineArgsConfigurationPath
+key: servicepipelineargsconfigurationpath
+content-length: 69
+
+paasport/azure/servicePipelines/getResourceGroups/servicePipelineArgs
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170309T203234Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9477f78c-0d5e-4b08-8201-31fb2191b599
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170310T211015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
