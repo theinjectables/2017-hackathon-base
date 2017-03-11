@@ -1,6 +1,6 @@
 ﻿namespace TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication
 {
-    public interface IAzureCredential
+    public interface IAzureCredentials
     {
         string TenantId { get; set; }
         string ClientId { get; set; }

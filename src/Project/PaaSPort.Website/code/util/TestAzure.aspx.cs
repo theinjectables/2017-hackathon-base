@@ -16,7 +16,7 @@ namespace TheInjectables.Project.PaaSPort.Website.util
             string client = "b8060a58-e98b-4e58-ba11-22269a084e2c";
             string subscription = "ffecf118-fbde-455a-ad01-8ad9541a9827";
 
-            var credential = new AzureCredential()
+            var credential = new AzureCredentials()
             {
                 ClientId = client,
                 TenantId = tenantid,

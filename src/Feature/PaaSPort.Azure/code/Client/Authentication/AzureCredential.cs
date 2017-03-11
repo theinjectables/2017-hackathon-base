@@ -3,7 +3,7 @@
 namespace TheInjectables.Feature.PaaSPort.Azure.Client.Authentication
 {
     // TODO: delete me
-    public class AzureCredential : IAzureCredential
+    public class AzureCredentials : IAzureCredentials
     {
         public string TenantId { get; set; }
         public string ClientId { get; set; }

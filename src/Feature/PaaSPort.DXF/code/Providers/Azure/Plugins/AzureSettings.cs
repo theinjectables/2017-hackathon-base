@@ -9,7 +9,7 @@ using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins
 {
-    public class AzureSettings : Sitecore.DataExchange.IPlugin, IAzureCredential
+    public class AzureSettings : Sitecore.DataExchange.IPlugin, IAzureCredentials
     {
         public string TenantId { get; set; }
         public string Key { get; set; }

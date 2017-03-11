@@ -9,7 +9,7 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
     public class AzureServiceManager : IAzureServiceManager
     {
-        public virtual IAzure GetAzureService(IAzureCredential credentials)
+        public virtual IAzure GetAzureService(IAzureCredentials credentials)
         {
             var servicePrincipal = new ServicePrincipalLoginInformation
             {

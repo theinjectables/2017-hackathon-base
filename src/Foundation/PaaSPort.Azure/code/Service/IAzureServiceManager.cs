@@ -5,6 +5,6 @@ namespace TheInjectables.Foundation.PaaSPort.Azure.Service
 {
     public interface IAzureServiceManager
     {
-        IAzure GetAzureService(IAzureCredential credentials);
+        IAzure GetAzureService(IAzureCredentials credentials);
     }
 }

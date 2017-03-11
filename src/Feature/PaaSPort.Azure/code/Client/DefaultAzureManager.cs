@@ -8,7 +8,7 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
     // TODO: delete me
     public class DefaultAzureManager : BaseAzureManager
     {
-        public DefaultAzureManager(IAzureCredential credentials) : base(credentials)
+        public DefaultAzureManager(IAzureCredentials credentials) : base(credentials)
         {
         }
 

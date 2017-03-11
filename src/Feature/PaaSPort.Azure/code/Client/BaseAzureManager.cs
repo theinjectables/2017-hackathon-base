@@ -11,9 +11,9 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
     // TODO: delete me
     public abstract class BaseAzureManager : IAzureManager
     {
-        private readonly IAzureCredential _credentials;
+        private readonly IAzureCredentials _credentials;
 
-        protected BaseAzureManager(IAzureCredential credentials)
+        protected BaseAzureManager(IAzureCredentials credentials)
         {
             _credentials = credentials;
             AzureSerivce = Azure();
