@@ -34,7 +34,8 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
                     ClientSecret = _credentials.Key
                 };
 
-                var credentials = new AzureCredentials(servicePrincipal, _credentials.TenantId, AzureEnvironment.AzureGlobalCloud);
+                var credentials = new AzureCredentials(servicePrincipal, _credentials.TenantId,
+                    AzureEnvironment.AzureGlobalCloud);
 
                 var azure = Microsoft.Azure.Management.Fluent.Azure
                     .Configure()
@@ -45,7 +46,6 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
                 Connected = !string.IsNullOrEmpty(azure.GetCurrentSubscription().SubscriptionId);
 
                 return azure;
-
             }
             catch (Exception)
             {

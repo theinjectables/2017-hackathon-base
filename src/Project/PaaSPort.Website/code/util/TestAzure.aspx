@@ -7,12 +7,12 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+<form id="form1" runat="server">
     <div>
         <h1>Azure Test Bed</h1>
         <hr/>
-    <asp:Literal runat="server" ID="litOutput"></asp:Literal>
+        <asp:Literal runat="server" ID="litOutput"></asp:Literal>
     </div>
-    </form>
+</form>
 </body>
 </html>

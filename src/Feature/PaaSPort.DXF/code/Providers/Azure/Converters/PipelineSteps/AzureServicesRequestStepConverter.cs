@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Sitecore.DataExchange.Converters.PipelineSteps;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Plugins;
@@ -31,9 +28,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Pipelin
 
             var endpointFrom = ConvertReferenceToModel<Endpoint>(source, AzureServicesRequestStepItemModel.EndpointFrom);
             if (endpointFrom != null)
-            {
                 settings.EndpointFrom = endpointFrom;
-            }
 
             pipelineStep.Plugins.Add(settings);
         }

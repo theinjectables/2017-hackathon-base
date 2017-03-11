@@ -17,7 +17,8 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
                 ClientSecret = credentials.Key
             };
 
-            var azureCredentials = new AzureCredentials(servicePrincipal, credentials.TenantId, AzureEnvironment.AzureGlobalCloud);
+            var azureCredentials = new AzureCredentials(servicePrincipal, credentials.TenantId,
+                AzureEnvironment.AzureGlobalCloud);
 
             var azure = Microsoft.Azure.Management.Fluent.Azure
                 .Configure()
