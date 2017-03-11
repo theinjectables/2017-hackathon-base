@@ -24,7 +24,6 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
 
         public IEnumerable<IAppServicePlan> GetAppServicePlans(string resourceGroupName)
         {
-
             var webApps = AzureSerivce.AppServices.AppServicePlans.ListByGroup(resourceGroupName);
             if (webApps.Count > 0)
                 return webApps;
@@ -34,7 +33,6 @@ namespace TheInjectables.Feature.PaaSPort.Azure.Client
 
         public IEnumerable<IWebApp> GetWebApps(string resourceGroupName)
         {
-
             var webApps = AzureSerivce.AppServices.WebApps.ListByGroup(resourceGroupName);
             if (webApps.Count > 0)
                 return webApps;

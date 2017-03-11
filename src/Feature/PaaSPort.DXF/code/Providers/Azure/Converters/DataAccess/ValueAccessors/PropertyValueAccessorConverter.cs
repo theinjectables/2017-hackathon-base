@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Sitecore.DataExchange.Converters.DataAccess.ValueAccessors;
 using Sitecore.DataExchange.DataAccess;
 using Sitecore.DataExchange.DataAccess.Readers;
@@ -26,25 +23,17 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.DataAcc
         {
             var accessor = base.Convert(source);
             if (accessor == null)
-            {
                 return null;
-            }
 
             var propertyName = GetStringValue(source, PropertyValueAccessorItemModel.PropertyName);
             if (string.IsNullOrEmpty(propertyName))
-            {
                 return null;
-            }
 
             //unless a reader or writer is explicitly set use the property value
             if (accessor.ValueReader == null)
-            {
                 accessor.ValueReader = new PropertyValueReader(propertyName);
-            }
             if (accessor.ValueWriter == null)
-            {
                 accessor.ValueWriter = new PropertyValueWriter(propertyName);
-            }
             return accessor;
         }
     }

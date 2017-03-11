@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Sitecore.DataExchange.Converters.Endpoints;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Repositories;
@@ -14,6 +11,7 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoin
     public class AzureEndpointConverter : BaseEndpointConverter<ItemModel>
     {
         private static readonly Guid TemplateId = Guid.Parse("{9E41746D-B14C-4FFA-B70B-8F522901CC9E}");
+
         public AzureEndpointConverter(IItemModelRepository repository) : base(repository)
         {
             //        //
@@ -26,15 +24,17 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoin
         protected override void AddPlugins(ItemModel source, Endpoint endpoint)
         {
             //create the plugin
-            var settings = new AzureSettings()
+            var settings = new AzureSettings
             {
                 TenantId = GetStringValue(source, AzureEndpointItemModel.TenantId),
                 Key = GetStringValue(source, AzureEndpointItemModel.Key),
                 ClientId = GetStringValue(source, AzureEndpointItemModel.Client),
                 SubscriptionId = GetStringValue(source, AzureEndpointItemModel.Subscription),
-                ServiceManagerConfigurationPath = GetStringValue(source, AzureEndpointItemModel.ServiceManagerConfigurationPath),
+                ServiceManagerConfigurationPath =
+                    GetStringValue(source, AzureEndpointItemModel.ServiceManagerConfigurationPath),
                 ServicePipelineName = GetStringValue(source, AzureEndpointItemModel.ServicePipelineName),
-                ServicePipelineArgsConfigurationPath = GetStringValue(source, AzureEndpointItemModel.ServicePipelineArgsConfigurationPath)
+                ServicePipelineArgsConfigurationPath =
+                    GetStringValue(source, AzureEndpointItemModel.ServicePipelineArgsConfigurationPath)
             };
 
             //add the plugin to the endpoint

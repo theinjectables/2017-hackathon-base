@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Specialized;
 using Sitecore;
-using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Globalization;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
+using Version = Sitecore.Data.Version;
 
 namespace TheInjectables.Feature.PaaSPort.Core.Commands
 {
@@ -19,8 +19,8 @@ namespace TheInjectables.Feature.PaaSPort.Core.Commands
             Assert.ArgumentNotNull(context, "context");
             if (context.Items.Length != 1)
                 return;
-            Item obj = context.Items[0];
-            NameValueCollection parameters = new NameValueCollection();
+            var obj = context.Items[0];
+            var parameters = new NameValueCollection();
             parameters["id"] = obj.ID.ToString();
             parameters["language"] = obj.Language.ToString();
             parameters["version"] = obj.Version.ToString();
@@ -36,13 +36,10 @@ namespace TheInjectables.Feature.PaaSPort.Core.Commands
             Assert.ArgumentNotNull(context, "context");
             if (context.Items.Length != 1)
                 return CommandState.Hidden;
-            Item obj = context.Items[0];
+            var obj = context.Items[0];
             var resourceName = obj.Fields["ResourceName"] != null ? obj.Fields["ResourceName"].Value : string.Empty;
             if (Context.IsAdministrator)
-            {
-                // Get the resource from DXF by resource name.
                 return string.IsNullOrEmpty(resourceName) ? CommandState.Hidden : CommandState.Enabled;
-            }
 
             //if (obj.Appearance.ReadOnly || !obj.Access.CanWrite() || (!obj.Locking.HasLock() || !obj.Access.CanWriteLanguage()))
             //    return CommandState.Disabled;
@@ -54,24 +51,18 @@ namespace TheInjectables.Feature.PaaSPort.Core.Commands
         /// <param name="args">The arguments.</param>
         protected void Run(ClientPipelineArgs args)
         {
-            Assert.ArgumentNotNull((object)args, "args");
+            Assert.ArgumentNotNull(args, "args");
             if (!SheerResponse.CheckModified())
                 return;
-            Item itemNotNull = Client.GetItemNotNull(args.Parameters["id"], Language.Parse(args.Parameters["language"]), Sitecore.Data.Version.Parse(args.Parameters["version"]));
+            var itemNotNull = Client.GetItemNotNull(args.Parameters["id"], Language.Parse(args.Parameters["language"]),
+                Version.Parse(args.Parameters["version"]));
             if (!itemNotNull.Locking.HasLock() && !Context.IsAdministrator)
                 return;
-            Log.Audit((object)this, "Check in: {0}", new string[1]
-            {
-                AuditFormatter.FormatItem(itemNotNull)
-            });
+            Log.Audit(this, "Check in: {0}", AuditFormatter.FormatItem(itemNotNull));
             itemNotNull.Editing.BeginEdit();
             itemNotNull.Locking.Unlock();
             itemNotNull.Editing.EndEdit();
-            Context.ClientPage.SendMessage((object)this, "item:checkedin");
+            Context.ClientPage.SendMessage(this, "item:checkedin");
         }
     }
 }
-
-
-
-
