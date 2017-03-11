@@ -237,7 +237,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
