@@ -14,8 +14,6 @@ namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
     [RequiredEndpointPlugins(typeof(AzureSettings))]
     public abstract class BasePipelinedAzureServicesRequestStepProcessor : BaseReadDataStepProcessor
     {
-        // ReSharper disable once PublicConstructorInAbstractClass
-
         protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName,
             BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger);
 

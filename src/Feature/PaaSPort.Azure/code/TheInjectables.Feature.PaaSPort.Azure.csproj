@@ -228,7 +228,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\Authentication\AzureCredential.cs" />
+    <Compile Include="Client\Authentication\AzureCredentials.cs" />
     <Compile Include="Client\AzureServiceManager.cs" />
     <Compile Include="Pipelines\GetAppServicePlans\BaseGetAppServicePlansProcessor.cs" />
     <Compile Include="Pipelines\GetAppServicePlans\GetAppServicePlansArgs.cs" />
