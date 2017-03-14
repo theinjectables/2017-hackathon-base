@@ -103,6 +103,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\TheInjectables.Foundation.PaaSPort.Azure.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -226,7 +227,7 @@
   <ItemGroup>
     <Compile Include="Pipelines\BaseAzureServicePipelineArgs.cs" />
     <Compile Include="Pipelines\IAzureServicePipelineArgs{TResult}.cs" />
-    <Compile Include="Service\Authentication\IAzureCredential.cs" />
+    <Compile Include="Service\Authentication\IAzureCredentials.cs" />
     <Compile Include="Service\IAzureServiceManager.cs" />
     <Compile Include="Pipelines\AzureServiceContext.cs" />
     <Compile Include="Pipelines\BaseAzureServicePipelineArgs{TResult}.cs" />
@@ -237,7 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local.pubxml" />

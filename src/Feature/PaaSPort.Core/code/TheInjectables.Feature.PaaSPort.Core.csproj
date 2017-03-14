@@ -103,6 +103,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\TheInjectables.Feature.PaaSPort.Core.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -141,7 +142,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Feature\Feature.PaaSPort.Core.Commands.config" />
-    <Content Include="Properties\PublishProfiles\Local.pubxml.user" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

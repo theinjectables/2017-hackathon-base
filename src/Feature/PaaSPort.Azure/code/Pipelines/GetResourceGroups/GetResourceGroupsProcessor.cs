@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using Microsoft.Azure.Management.Resource.Fluent;
-using Microsoft.Azure.Management.Resource.Fluent.Core;
 using Sitecore.DataExchange.Plugins;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Pipelines.GetResourceGroups

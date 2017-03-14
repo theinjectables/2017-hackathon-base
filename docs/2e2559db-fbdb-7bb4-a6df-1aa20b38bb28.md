@@ -1,0 +1,25 @@
+# AzureEndpointConverter Constructor 
+ _**\[This is preliminary documentation and is subject to change.\]**_
+
+Creates a new instance of the  type
+
+**Namespace:**&nbsp;<a href="523c7508-f474-7806-2136-03f2b2911b1a">TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoints</a><br />**Assembly:**&nbsp;TheInjectables.Feature.PaaSPort.DXF (in TheInjectables.Feature.PaaSPort.DXF.dll) Version: 1.0.0.0 (1.0.0.0)
+
+## Syntax
+
+**C#**<br />
+``` C#
+public AzureEndpointConverter(
+	IItemModelRepository repository
+)
+```
+
+
+#### Parameters
+&nbsp;<dl><dt>repository</dt><dd>Type: IItemModelRepository<br />The repository of the item models</dd></dl>
+
+## See Also
+
+
+#### Reference
+<a href="1a00c31c-0f18-5031-bae1-50197e810ec2">AzureEndpointConverter Class</a><br /><a href="523c7508-f474-7806-2136-03f2b2911b1a">TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoints Namespace</a><br /><a href="1a00c31c-0f18-5031-bae1-50197e810ec2">TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoints.AzureEndpointConverter</a><br />

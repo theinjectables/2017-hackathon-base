@@ -1,27 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Sitecore.Configuration;
 using Sitecore.DataExchange;
-using Sitecore.DataExchange.Attributes;
-using Sitecore.DataExchange.Contexts;
-using Sitecore.DataExchange.Models;
-using Sitecore.DataExchange.Plugins;
-using Sitecore.DataExchange.Processors.PipelineSteps;
 using Sitecore.Pipelines;
 using Sitecore.Services.Core.Diagnostics;
-using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Extensions;
-using TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins;
 using TheInjectables.Foundation.PaaSPort.Azure.Pipelines;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
+    /// <summary>
+    /// Class representing the default pipeline step processor for running PaaSPort Service Pipelines
+    /// </summary>
     public class DefaultPipelinedAzureRequestStepProcessor : BasePipelinedAzureServicesRequestStepProcessor
     {
+        /// <summary>
+        /// Runs the specified PaaSPort Service Pipeline using the specified arguments and returns 
+        /// the <seealso cref="IPlugin"/> result object
+        /// </summary>
+        /// <param name="servicePipelineName">Name of the PaaSPort Service Pipeline to run</param>
+        /// <param name="servicePipelineArgs">The arguments to be passed to the PaaSPort Service Pipeline</param>
+        /// <param name="logger">The object to be used for writing messages to the log files</param>
+        /// <returns></returns>
         protected override IPlugin ExecuteServicePipeline(string servicePipelineName, BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger)
         {
             // get the pipeline from the config
-            CorePipeline.Run(servicePipelineName, servicePipelineArgs, Sitecore.Configuration.Settings.GetSetting("PaaSPort.PipelineGroupName"));
+            CorePipeline.Run(servicePipelineName, servicePipelineArgs, Settings.GetSetting("PaaSPort.PipelineGroupName"));
 
             return servicePipelineArgs.GetResult();
         }
