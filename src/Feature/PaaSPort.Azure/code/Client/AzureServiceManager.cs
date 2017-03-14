@@ -7,8 +7,18 @@ using TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication;
 
 namespace TheInjectables.Feature.PaaSPort.Azure.Client
 {
+    /// <summary>
+    /// Class for managing the retrieval of the azure service
+    /// </summary>
     public class AzureServiceManager : IAzureServiceManager
     {
+        /// <summary>
+        /// Configures and returns a new instance of the Azure client service with the given <paramref name="credentials"/>
+        /// </summary>
+        /// <param name="credentials">The credentials to be used for authenticating with the Azure client service</param>
+        /// <returns>
+        /// An <seealso cref="IAzure"/> type object representing an instance of the Azure client service
+        /// </returns>
         public virtual IAzure GetAzureService(IAzureCredentials credentials)
         {
             var servicePrincipal = new ServicePrincipalLoginInformation

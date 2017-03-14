@@ -11,12 +11,27 @@ using TheInjectables.Foundation.PaaSPort.Azure.Pipelines;
 
 namespace TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors
 {
+    /// <summary>
+    /// Base class for a DXF step processor that executes a PaaSPort Service Pipeline
+    /// </summary>
     [RequiredEndpointPlugins(typeof(AzureSettings))]
     public abstract class BasePipelinedAzureServicesRequestStepProcessor : BaseReadDataStepProcessor
     {
-        protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName,
-            BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger);
+        /// <summary>
+        /// Executes the PaaSPort Service Pipeline with the given name, arguments and logger
+        /// </summary>
+        /// <param name="servicePipelineName">The name of the PaaSPort Service Pipeline to run</param>
+        /// <param name="servicePipelineArgs">The arguments to be passed to the PaaSPort Service Pipeline</param>
+        /// <param name="logger">The object used to write messages to the log files</param>
+        /// <returns></returns>
+        protected abstract IPlugin ExecuteServicePipeline(string servicePipelineName, BaseAzureServicePipelineArgs servicePipelineArgs, ILogger logger);
 
+        /// <summary>
+        /// Runs the service pipeline to read the data and then adds the result to the pipeline context
+        /// </summary>
+        /// <param name="endpoint">The source DXF endpoint</param>
+        /// <param name="pipelineStep">The <seealso cref="PipelineStep"/> to process</param>
+        /// <param name="pipelineContext">The <seealso cref="PipelineContext"/> in which this step processor runs</param>
         protected override void ReadData(Endpoint endpoint, PipelineStep pipelineStep, PipelineContext pipelineContext)
         {
             if (endpoint == null)
