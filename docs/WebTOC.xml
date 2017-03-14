@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="0accc69d-3e1e-4dac-ac9c-a806c6896e37" Title="Namespaces" Url="html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm">
+    <HelpTOCNode Id="116dff3b-d2f8-494f-a503-a1cadf44e659" Title="TheInjectables.Feature.PaaSPort.Azure Namespaces" Url="html/2690e54f-c80a-ec68-46b9-bb2522a61b45.htm">
+      <HelpTOCNode Id="bd58cdb7-a8de-4eab-a97d-1913c6003329" Title="TheInjectables.Feature.PaaSPort.Azure.Client Namespaces" Url="html/6a600bff-e27b-4f79-3505-765c2b859bf0.htm">
+        <HelpTOCNode Id="a0ca63df-a743-4250-8da2-d913a0be9a73" Title="TheInjectables.Feature.PaaSPort.Azure.Client" Url="html/7460d243-3752-eb16-dae3-b81411b261e7.htm">
+          <HelpTOCNode Id="b76a6940-4d6c-4942-92c6-dc7d991f5914" Title="AzureServiceManager Class" Url="html/9902a686-2a58-2a7d-0838-b2073216be56.htm">
+            <HelpTOCNode Title="AzureServiceManager Constructor " Url="html/dd49c1ad-1cc0-951a-faf4-33f59cd96674.htm" />
+            <HelpTOCNode Id="8379f510-2211-4dd6-a486-01e6c8ac0bbf" Title="AzureServiceManager Methods" Url="html/a245bbff-5c4d-db15-33e7-6a38120c6e2e.htm">
+              <HelpTOCNode Title="GetAzureService Method " Url="html/e707f609-f913-1b68-9283-2ae88385f440.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="4872878a-78de-4480-b477-56b7880111d8" Title="TheInjectables.Feature.PaaSPort.Azure.Client.Authentication" Url="html/e6e41c02-aebe-793c-1694-72b6ef246725.htm">
+          <HelpTOCNode Id="575d9065-fbc0-47a2-856f-d17dfda81ed4" Title="AzureCredentials Class" Url="html/fe3174d0-7fac-f3f1-3086-b011a5af550e.htm">
+            <HelpTOCNode Title="AzureCredentials Constructor " Url="html/c2679b4d-51cb-689c-ac51-3e960c61257a.htm" />
+            <HelpTOCNode Id="070d09bd-9d80-479f-a1e0-8c7e9c869dd8" Title="AzureCredentials Properties" Url="html/b25b06d5-e65f-a774-dfce-9d6b3110b17d.htm">
+              <HelpTOCNode Title="ClientId Property " Url="html/949f9521-f9c5-1a12-e8d6-d7eaff5c606f.htm" />
+              <HelpTOCNode Title="Key Property " Url="html/8acf59bd-5485-0ebf-7da4-6e24097e7a10.htm" />
+              <HelpTOCNode Title="SubscriptionId Property " Url="html/500b71d4-8ffe-88e9-1570-8b455250ea6d.htm" />
+              <HelpTOCNode Title="TenantId Property " Url="html/d49aab3e-1c11-1869-7d68-3e28fae319a4.htm" />
+            </HelpTOCNode>
+            <HelpTOCNode Title="AzureCredentials Methods" Url="html/bba86149-0789-6fa3-fe17-1c6ed45f74b8.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="70fe513d-2661-4b37-a89b-8421f109851b" Title="TheInjectables.Feature.PaaSPort.Azure.Pipelines Namespaces" Url="html/8dffd943-b7d6-4cea-0d80-83327ea606b7.htm">
+        <HelpTOCNode Id="1f09be23-4014-402f-b6aa-054adda10428" Title="TheInjectables.Feature.PaaSPort.Azure.Pipelines.GetAppServicePlans" Url="html/cd86f921-d369-f4ec-1e59-9130631c8d0c.htm">
+          <HelpTOCNode Id="a1a51131-3772-4038-beeb-bf957157d22d" Title="BaseGetAppServicePlansProcessor Class" Url="html/cac1f355-4918-c1d4-e299-32936d6e55e2.htm">
+            <HelpTOCNode Title="BaseGetAppServicePlansProcessor Constructor " Url="html/a7b6d60c-f78b-8dcd-d384-7fe5d08882cc.htm" />
+            <HelpTOCNode Title="BaseGetAppServicePlansProcessor Properties" Url="html/9fb05593-8305-bbf0-c5cb-0f259819166c.htm" />
+            <HelpTOCNode Id="6d076b83-a329-4c95-9d24-31f43419617c" Title="BaseGetAppServicePlansProcessor Methods" Url="html/35ede162-58b1-62ad-ff57-c72457dd9349.htm">
+              <HelpTOCNode Title="Process Method " Url="html/a1565a18-09ae-2352-0ffa-2ef6d8bfed5b.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+          <HelpTOCNode Id="14c10339-7bad-41be-8293-f07d56eab0b1" Title="GetAppServicePlansArgs Class" Url="html/93c58885-3e50-d7e6-7efa-b2f395762a1d.htm">
+            <HelpTOCNode Title="GetAppServicePlansArgs Constructor " Url="html/8b969bad-d963-3ac5-4fb3-66ee89b86803.htm" />
+            <HelpTOCNode Title="GetAppServicePlansArgs Properties" Url="html/44b2c150-308c-2806-4f9d-0e0db6b5d171.htm" />
+            <HelpTOCNode Title="GetAppServicePlansArgs Methods" Url="html/06c1eef1-95ee-d195-76de-588b0eac4f04.htm" />
+            <HelpTOCNode Title="GetAppServicePlansArgs Fields" Url="html/25b9ab84-6a65-0dbb-631b-01ba018342fc.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="53d70270-d2ac-4e14-b485-c3e8f7f5a33f" Title="GetAppServicePlansProcessor Class" Url="html/24831862-66b6-1ecd-93eb-2994f51fed12.htm">
+            <HelpTOCNode Title="GetAppServicePlansProcessor Constructor " Url="html/3dbac106-6924-0c95-76b8-b4a118551234.htm" />
+            <HelpTOCNode Title="GetAppServicePlansProcessor Properties" Url="html/4274d0f0-6c11-74c4-6026-1aa5731152fa.htm" />
+            <HelpTOCNode Id="f0713c03-1319-48d2-a4bf-405c565a2e87" Title="GetAppServicePlansProcessor Methods" Url="html/2574bd4a-789c-ffb0-8880-5a014f61c0df.htm">
+              <HelpTOCNode Title="Process Method " Url="html/ab6b5d9c-87af-880e-2c66-56436f849f11.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a72bd52d-81c2-4118-ac37-8a03f25663d7" Title="TheInjectables.Feature.PaaSPort.Azure.Pipelines.GetResourceGroups" Url="html/3cea148e-ef6f-7e1d-53e5-19c27908723a.htm">
+          <HelpTOCNode Id="d1c3c3f7-4dbc-4231-b0d1-abe52ada02d2" Title="BaseGetResourceGroupsProcessor Class" Url="html/fefa6a61-46fc-fe47-d095-d9930326f879.htm">
+            <HelpTOCNode Title="BaseGetResourceGroupsProcessor Constructor " Url="html/9899469c-7821-4172-7d4e-08dea67885af.htm" />
+            <HelpTOCNode Title="BaseGetResourceGroupsProcessor Properties" Url="html/daf8a84b-5e5d-de40-ba22-7f8032fe57b0.htm" />
+            <HelpTOCNode Id="946aba53-ea5e-4ab9-8459-db8e5f56c97a" Title="BaseGetResourceGroupsProcessor Methods" Url="html/ba3ac1a0-f652-7734-60ea-b2928518267e.htm">
+              <HelpTOCNode Title="Process Method " Url="html/10eaccd3-4e6a-6db6-5971-6bdef1d584f3.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+          <HelpTOCNode Id="43a83368-19bd-44df-bd9a-48ef8c65ca12" Title="GetResourceGroupsArgs Class" Url="html/87419f14-e51f-5946-b8a6-a31f0d169a67.htm">
+            <HelpTOCNode Title="GetResourceGroupsArgs Constructor " Url="html/effab691-c378-f0ab-3df2-43eb489ef5c0.htm" />
+            <HelpTOCNode Title="GetResourceGroupsArgs Properties" Url="html/1574fdb7-51b3-50c0-b6ae-58ea7f6ecd6e.htm" />
+            <HelpTOCNode Title="GetResourceGroupsArgs Methods" Url="html/3d8ecec2-2145-3fa5-fdc9-7dc79963c3ca.htm" />
+            <HelpTOCNode Title="GetResourceGroupsArgs Fields" Url="html/a3bef601-e0cb-1643-e1c9-24ef37b65114.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="d474787d-4308-40e8-a6c2-124164c81afd" Title="GetResourceGroupsProcessor Class" Url="html/4bfd0e51-94fa-abaf-e376-8b5194e159bc.htm">
+            <HelpTOCNode Title="GetResourceGroupsProcessor Constructor " Url="html/d576b6a0-a666-d41a-fa1e-b4913993dffb.htm" />
+            <HelpTOCNode Title="GetResourceGroupsProcessor Properties" Url="html/a2193a94-12b6-9663-d01f-840bb94dde53.htm" />
+            <HelpTOCNode Id="8cd3d26e-a8c7-4952-9865-249b602adecb" Title="GetResourceGroupsProcessor Methods" Url="html/81b178e4-5f07-2990-d8de-e6d21d3998a2.htm">
+              <HelpTOCNode Title="Process Method " Url="html/697e3e6c-2635-0a89-80fc-9005bbebf9bd.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d9e04235-2348-49c1-a162-7468a035257a" Title="TheInjectables.Feature.PaaSPort.Azure.Pipelines.GetWebApps" Url="html/2e94f1aa-261f-e92b-09e7-dd283057945e.htm">
+          <HelpTOCNode Id="74c8bde8-f51b-4ba0-b748-b6b762b3eaca" Title="BaseGetWebAppsProcessor Class" Url="html/ab883881-9537-c286-7b31-8cf715c8fc05.htm">
+            <HelpTOCNode Title="BaseGetWebAppsProcessor Constructor " Url="html/1754a80e-8d3a-fcca-7815-554a6a1d50c9.htm" />
+            <HelpTOCNode Title="BaseGetWebAppsProcessor Properties" Url="html/8594309e-f045-c3c6-f081-1952eb726264.htm" />
+            <HelpTOCNode Id="073a6551-e579-453f-861c-4a7493d1930c" Title="BaseGetWebAppsProcessor Methods" Url="html/8affe1dd-edbe-8a11-9995-53e0be4d1353.htm">
+              <HelpTOCNode Title="Process Method " Url="html/565e5c4e-ec3f-701b-252c-b5eb473573c5.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+          <HelpTOCNode Id="5e9ea03d-44d7-4339-afc8-5ec33b9d533f" Title="GetWebAppsArgs Class" Url="html/a7ae9983-68d9-dded-614d-c9c75d4c65d5.htm">
+            <HelpTOCNode Title="GetWebAppsArgs Constructor " Url="html/2bf2d863-22e5-1266-0370-145c252e91a2.htm" />
+            <HelpTOCNode Title="GetWebAppsArgs Properties" Url="html/ddedf9d0-8408-b19b-4811-0b32d158d884.htm" />
+            <HelpTOCNode Title="GetWebAppsArgs Methods" Url="html/7e5c2b35-edfb-a4a0-7d76-bc23127cf391.htm" />
+            <HelpTOCNode Title="GetWebAppsArgs Fields" Url="html/5b835305-c691-a881-0274-433aa6eb05f8.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b3a6661c-de58-4d74-b7b6-6cb084fc076a" Title="GetWebAppsProcessor Class" Url="html/6ff2ad34-9072-3424-addb-d43fd35fae37.htm">
+            <HelpTOCNode Title="GetWebAppsProcessor Constructor " Url="html/8565e39f-52cd-6404-3809-b110153b0569.htm" />
+            <HelpTOCNode Title="GetWebAppsProcessor Properties" Url="html/a82187fd-ee7c-7a36-f063-1546f0c4cdf2.htm" />
+            <HelpTOCNode Id="e8ad3dd8-2520-4613-8975-04f63ebc60c2" Title="GetWebAppsProcessor Methods" Url="html/72fe66c7-de46-e3c4-a335-f77197b1bf63.htm">
+              <HelpTOCNode Title="Process Method " Url="html/558f498d-f9b4-a8ff-fc38-334104bf347f.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="04c29be3-a3d6-41b8-b563-879ad8d2620f" Title="TheInjectables.Feature.PaaSPort.Core.Commands" Url="html/1a653896-e98f-72d0-a9ab-845659ddb8d6.htm">
+      <HelpTOCNode Id="c7ca7369-4dd9-4ee4-a18a-75a9d6a3ab3b" Title="TestWebAppCommand Class" Url="html/00d71660-becc-6332-20d7-acfd530c913f.htm">
+        <HelpTOCNode Title="TestWebAppCommand Constructor " Url="html/79ba3035-d5de-8997-6c33-2afd179a0825.htm" />
+        <HelpTOCNode Title="TestWebAppCommand Properties" Url="html/212ca28e-ce89-d92d-c6e1-9a79cc8c14fa.htm" />
+        <HelpTOCNode Id="becb5a72-f69a-4f76-97d0-2d3f523b2d78" Title="TestWebAppCommand Methods" Url="html/460c4469-db9b-2c33-22b9-d94b39b5ffb6.htm">
+          <HelpTOCNode Title="Execute Method " Url="html/88b00c4f-a5bd-ac94-1b15-b92d987270b1.htm" />
+          <HelpTOCNode Title="QueryState Method " Url="html/a4a12bc3-7a7a-4acb-19ff-aa040d165240.htm" />
+          <HelpTOCNode Title="Run Method " Url="html/d22d6abf-b183-08cc-85cc-cb6d7133fa7f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TestWebAppCommand Fields" Url="html/0633a3b5-b6ba-e15f-9efa-3481dd3420eb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3311e92f-7453-473d-957c-553a17724f8b" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure Namespaces" Url="html/0f18f259-c4e6-522d-d459-453d7f09b610.htm">
+      <HelpTOCNode Id="a5449ba1-da2d-4dd2-9e86-84369b4e0a38" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.Endpoints" Url="html/523c7508-f474-7806-2136-03f2b2911b1a.htm">
+        <HelpTOCNode Id="7c474433-3765-4e62-a3bc-2a253c0c3999" Title="AzureEndpointConverter Class" Url="html/1a00c31c-0f18-5031-bae1-50197e810ec2.htm">
+          <HelpTOCNode Title="AzureEndpointConverter Constructor " Url="html/2e2559db-fbdb-7bb4-a6df-1aa20b38bb28.htm" />
+          <HelpTOCNode Title="AzureEndpointConverter Constructor " Url="html/1ccb6f16-8b87-8924-0b39-4d7699b5cb3e.htm" />
+          <HelpTOCNode Title="AzureEndpointConverter Properties" Url="html/fec05820-50ab-a01f-78c4-1130492ec49d.htm" />
+          <HelpTOCNode Id="6b6370ee-7c5f-4585-8509-469b0049415d" Title="AzureEndpointConverter Methods" Url="html/4c892c31-f04c-e827-636f-34d59acd2e6c.htm">
+            <HelpTOCNode Title="AddPlugins Method " Url="html/9252a7d0-ba29-d9d6-0b83-4e57590e1d1d.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="dd69edc2-3e8c-4bb3-8287-5987139d5c58" Title="AzureEndpointConverter Fields" Url="html/42de679c-9087-07a7-2063-c5b60a406b19.htm">
+            <HelpTOCNode Title="TemplateId Field" Url="html/76f2f051-4e5c-04c1-cbd2-d3cd072230ba.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b85faa76-97d6-4566-b088-0f918f88f3bb" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Converters.PipelineSteps" Url="html/e5f6a33e-cf3a-aa84-8c0f-6d7a1a041f68.htm">
+        <HelpTOCNode Id="9a8f44d3-a2b5-4197-97c4-cfe1ddde60f6" Title="AzureServicesRequestStepConverter Class" Url="html/7668002e-1c32-43a5-c651-c68473abdaa0.htm">
+          <HelpTOCNode Title="AzureServicesRequestStepConverter Constructor " Url="html/83f06e14-9e32-2456-d79c-709fc6a90d79.htm" />
+          <HelpTOCNode Title="AzureServicesRequestStepConverter Constructor " Url="html/4f482cee-615b-ec69-d604-d46048026fd4.htm" />
+          <HelpTOCNode Title="AzureServicesRequestStepConverter Properties" Url="html/39b018cc-58ae-a60a-cfaa-c4dbdb7c7c64.htm" />
+          <HelpTOCNode Id="9350cb06-c5ea-4a6a-bb17-212ae60ed70b" Title="AzureServicesRequestStepConverter Methods" Url="html/e34fcf48-0bdd-0d30-346b-c94bc9803212.htm">
+            <HelpTOCNode Title="AddEndpointSettings Method " Url="html/c953c9a1-20fb-9c42-6cd7-d2121307ddf9.htm" />
+            <HelpTOCNode Title="AddPlugins Method " Url="html/876b70f0-97c0-915b-23a0-dea9f7889a67.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="80ccf449-6d91-47da-9ad5-cf9398154577" Title="AzureServicesRequestStepConverter Fields" Url="html/de6070d3-8123-8523-9c15-d1952f200350.htm">
+            <HelpTOCNode Title="TemplateId Field" Url="html/b9954d00-55ba-379e-4597-14658489f7a9.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c2d57ab-8275-4e2e-ac8c-a0e780780eda" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Extensions" Url="html/6daa2817-41b4-93f0-67e9-9a60df5e2a71.htm">
+        <HelpTOCNode Id="77f4fa9e-9f20-41f6-b2bd-ff699c324f58" Title="EndpointExtensions Class" Url="html/62f354a9-ff0d-690c-ecef-aa0e2d10473e.htm">
+          <HelpTOCNode Id="5b9057a5-fa53-4dad-bd15-2bae4303138e" Title="EndpointExtensions Methods" Url="html/c22b0270-bc53-530d-b26a-6fd179abfe32.htm">
+            <HelpTOCNode Title="GetAzureSettings Method " Url="html/492d60d3-8e09-6c71-e98b-edc49597a5cb.htm" />
+            <HelpTOCNode Title="HasAzureSettings Method " Url="html/2a42f0e4-fae9-72b4-2bef-2d4428882919.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="87504a97-b02c-4fe3-a27d-8fdb969779e6" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Models.ItemModels.Endpoints" Url="html/71118593-f7ae-dd06-4ee1-7025b172aadb.htm">
+        <HelpTOCNode Id="2ae6cf7b-b4f2-4136-9813-3dd77abf0a73" Title="AzureEndpointItemModel Class" Url="html/ba4f223e-e0e5-2fce-115e-d0c5b5dad7d0.htm">
+          <HelpTOCNode Title="AzureEndpointItemModel Constructor " Url="html/6fef9008-b41f-3caa-1055-e4fb0e113a9e.htm" />
+          <HelpTOCNode Title="AzureEndpointItemModel Properties" Url="html/e5dcbbde-ec6b-2535-e85c-dab05b5da6fc.htm" />
+          <HelpTOCNode Title="AzureEndpointItemModel Methods" Url="html/f2b3aa98-a165-23bc-34ce-7f5871491df8.htm" />
+          <HelpTOCNode Id="9ea93111-4539-4c1b-b494-022183c4cbb1" Title="AzureEndpointItemModel Fields" Url="html/9b1ee395-638b-064e-3450-7bb97a77f86e.htm">
+            <HelpTOCNode Title="Client Field" Url="html/294c0593-6e0a-47bf-10e2-6e90433bf5ab.htm" />
+            <HelpTOCNode Title="Key Field" Url="html/99b12990-d44e-b330-73c3-033367333e6a.htm" />
+            <HelpTOCNode Title="ServiceManagerConfigurationPath Field" Url="html/c415cc7c-69f6-e74d-e4ec-2346229a96b7.htm" />
+            <HelpTOCNode Title="ServicePipelineArgsConfigurationPath Field" Url="html/80105ce2-4497-da45-1d10-6c8a0dc27cdd.htm" />
+            <HelpTOCNode Title="ServicePipelineName Field" Url="html/b825c7bd-e5b2-447b-13ca-18b1449677b4.htm" />
+            <HelpTOCNode Title="Subscription Field" Url="html/838aa5b0-1eda-2621-0c57-ca8711717b09.htm" />
+            <HelpTOCNode Title="TenantId Field" Url="html/c3be4875-ba43-cb28-e3c9-cd1773ccc0e7.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="07296831-ec16-4db8-84fb-7f8881abe2dc" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Models.ItemModels.PipelineSteps" Url="html/fecc877a-7f6e-e7b2-3bb7-8939cf537f5f.htm">
+        <HelpTOCNode Id="8f2dfdb7-8fb2-4d6f-b282-f9aa3af39905" Title="AzureServicesRequestStepItemModel Class" Url="html/1a9a3dcc-d97e-5a00-4ea2-2f9ac493b621.htm">
+          <HelpTOCNode Title="AzureServicesRequestStepItemModel Constructor " Url="html/d7e3f129-5106-5ce5-4424-7e4955eec5ee.htm" />
+          <HelpTOCNode Title="AzureServicesRequestStepItemModel Properties" Url="html/b4839773-0153-ad49-f5a1-25a9b265187a.htm" />
+          <HelpTOCNode Title="AzureServicesRequestStepItemModel Methods" Url="html/90b21f47-6d04-74a1-a913-1dc5fbf75cc9.htm" />
+          <HelpTOCNode Id="a2891dc6-fd92-43b6-8d42-bd182c064fdc" Title="AzureServicesRequestStepItemModel Fields" Url="html/57e12cb7-3560-1671-7659-675073bcc18d.htm">
+            <HelpTOCNode Title="EndpointFrom Field" Url="html/0a550aa3-1e45-3e0c-5a73-ca2dd54ef7db.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8113c969-ca89-4a92-a549-3e581146bce8" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Plugins" Url="html/7b39a861-bd82-d252-6fed-615bd3ef6134.htm">
+        <HelpTOCNode Id="96509f5e-b4cb-4fae-a815-eaf1a5eb0e3d" Title="AzureSettings Class" Url="html/893fc694-5b06-0386-51cc-f256663f152f.htm">
+          <HelpTOCNode Title="AzureSettings Constructor " Url="html/62737354-eb80-e320-2686-7f9de23a14fe.htm" />
+          <HelpTOCNode Id="3e4a638b-99b0-4751-81ba-9adadfb751a8" Title="AzureSettings Properties" Url="html/bd485f7e-972e-7ddd-b3fa-3962b5209ed3.htm">
+            <HelpTOCNode Title="ClientId Property " Url="html/cca33ddf-7d69-c47b-cd36-1ba43f3697a6.htm" />
+            <HelpTOCNode Title="Key Property " Url="html/a16e1e1d-d33d-7734-34b5-e4e2188c0964.htm" />
+            <HelpTOCNode Title="ServiceManager Property " Url="html/41bdeee4-36c5-b440-0c24-5f656dd22855.htm" />
+            <HelpTOCNode Title="ServiceManagerConfigurationPath Property " Url="html/2eb535a7-467f-addd-2c4b-0117fe30f04c.htm" />
+            <HelpTOCNode Title="ServicePipelineArgs Property " Url="html/2890367d-d4be-d88c-17c2-c2dfb186917a.htm" />
+            <HelpTOCNode Title="ServicePipelineArgsConfigurationPath Property " Url="html/d3a70b80-4e5c-41e7-4f0e-9e5885ee6904.htm" />
+            <HelpTOCNode Title="ServicePipelineName Property " Url="html/0f3b2086-e0a0-3424-73c6-529997071768.htm" />
+            <HelpTOCNode Title="SubscriptionId Property " Url="html/9f7722a2-ddb8-4e0a-1351-0740af1fc596.htm" />
+            <HelpTOCNode Title="TenantId Property " Url="html/0916d9f5-6762-77a8-1d6e-9e6307ca31b5.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AzureSettings Methods" Url="html/0eafb543-e775-2653-6c12-ef2ac7685761.htm" />
+          <HelpTOCNode Id="1194e902-543f-43a3-a455-4c27680c5bb2" Title="AzureSettings Fields" Url="html/fe8ed4a0-e600-3992-0237-c576b15114d4.htm">
+            <HelpTOCNode Title="_serviceManager Field" Url="html/1ff8e752-ad2d-d60b-2ce6-8bb6048658b4.htm" />
+            <HelpTOCNode Title="_servicePipelineArgs Field" Url="html/72a9db20-aff3-b021-f3ad-06499c43dd40.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="28739f73-34c6-480d-be6e-86a3c25ec4af" Title="TheInjectables.Feature.PaaSPort.DXF.Providers.Azure.Processors" Url="html/6c39029b-3f10-96e8-3870-29c3ae879e04.htm">
+        <HelpTOCNode Id="34417cbf-6b54-4e2e-8cef-3001e9cc0957" Title="BasePipelinedAzureServicesRequestStepProcessor Class" Url="html/405abf7e-4b19-5ca3-3f38-95e730cc923b.htm">
+          <HelpTOCNode Title="BasePipelinedAzureServicesRequestStepProcessor Constructor " Url="html/d6f805f5-443c-74c9-c85c-44bcdb5d59cb.htm" />
+          <HelpTOCNode Id="ceadab29-bda4-4ca7-a01d-fed8ef54e60c" Title="BasePipelinedAzureServicesRequestStepProcessor Methods" Url="html/1d86f5a1-4463-ffc3-31ae-81f700d3fd0a.htm">
+            <HelpTOCNode Title="ExecuteServicePipeline Method " Url="html/83db5f7f-1323-9464-b503-25aa89442c09.htm" />
+            <HelpTOCNode Title="ReadData Method " Url="html/0c0a1a77-dac1-fe5b-089f-80f09d248ea9.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="cfd61804-e6d3-4f0b-834a-f40cd4b6d6de" Title="DefaultPipelinedAzureRequestStepProcessor Class" Url="html/5807ff1c-9e89-c10f-e3d1-ba4b1181a69a.htm">
+          <HelpTOCNode Title="DefaultPipelinedAzureRequestStepProcessor Constructor " Url="html/2dcf9c9d-3fba-35a9-8461-c33a318b79cb.htm" />
+          <HelpTOCNode Id="9afa8873-5e29-470f-988d-fa580ee57ac9" Title="DefaultPipelinedAzureRequestStepProcessor Methods" Url="html/c90f2ecd-e424-1ff0-eb9d-0f882724e0e4.htm">
+            <HelpTOCNode Title="ExecuteServicePipeline Method " Url="html/b1e7c147-ddd8-5b80-87c4-8b11dea26938.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5b569ad5-2a67-49c7-8a19-21447ba02a96" Title="TheInjectables.Foundation.PaaSPort.Azure Namespaces" Url="html/b132089f-43b1-da3a-2122-d53db1f1697d.htm">
+      <HelpTOCNode Id="d8131e09-f96d-47d5-84b7-fcedc0f0048c" Title="TheInjectables.Foundation.PaaSPort.Azure.Pipelines" Url="html/12877838-209f-7bd8-1db6-0de375a06add.htm">
+        <HelpTOCNode Id="4a12b4cc-18ef-4937-b53a-249e41fcf3ed" Title="AzureServiceContext Class" Url="html/ca8afa70-5060-a822-1e30-31a11362008b.htm">
+          <HelpTOCNode Title="AzureServiceContext Constructor " Url="html/eab69244-61ab-c2ec-d482-4e89cef9a974.htm" />
+          <HelpTOCNode Id="79e89a2e-cf1b-4160-801c-0055bf2ce4e0" Title="AzureServiceContext Properties" Url="html/183cfeec-b03b-cf14-4616-ab2c0378c062.htm">
+            <HelpTOCNode Title="IsConnected Property " Url="html/17fb774b-6b3f-0522-db85-7fa34abd1941.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AzureServiceContext Methods" Url="html/1ebfd927-2158-3e42-9092-2d538c2c8742.htm" />
+          <HelpTOCNode Title="AzureServiceContext Events" Url="html/1815ed7f-ca86-157e-6bba-d8277feda994.htm" />
+          <HelpTOCNode Title="AzureServiceContext Fields" Url="html/c609c383-b369-10b6-9a41-f651aee6324b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bb62fecf-ffbe-4463-ad55-c9b09b57f8ae" Title="BaseAzureServicePipelineArgs Class" Url="html/8340ffa8-ae96-d099-17c4-b4400351ed9a.htm">
+          <HelpTOCNode Title="BaseAzureServicePipelineArgs Constructor " Url="html/878c1fb1-4874-9073-261c-8490c6a5d24b.htm" />
+          <HelpTOCNode Title="BaseAzureServicePipelineArgs Properties" Url="html/989c8d19-d9ba-81a6-45b5-3f85ee0a1497.htm" />
+          <HelpTOCNode Id="7809dd21-7bab-4760-ba93-d7b8c44bf964" Title="BaseAzureServicePipelineArgs Methods" Url="html/abcfabcb-e3aa-4850-442f-02c15d689023.htm">
+            <HelpTOCNode Title="GetResult Method " Url="html/b2a96993-9125-b3ea-a327-0721411f8fca.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="BaseAzureServicePipelineArgs Fields" Url="html/3dcaa878-acad-43a2-4648-d3e462f2443c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5801dc65-e7fa-4c67-90f2-ae3057a3937d" Title="BaseAzureServicePipelineArgs(TResult) Class" Url="html/028f1479-558a-4c5b-6096-6f2a7868cb75.htm">
+          <HelpTOCNode Title="BaseAzureServicePipelineArgs(TResult) Constructor " Url="html/40ae933a-c08d-35e2-d8ea-0649c4562e9a.htm" />
+          <HelpTOCNode Id="4d48c72e-23af-4c74-b40b-6cd3997e5054" Title="BaseAzureServicePipelineArgs(TResult) Properties" Url="html/2aae362b-70cf-f0ee-49bb-7f8acb2d9a95.htm">
+            <HelpTOCNode Title="Result Property " Url="html/bd53cdee-a128-e4bd-1754-444db41f764e.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="4697242a-c2f9-46b7-9100-dae33fca841a" Title="BaseAzureServicePipelineArgs(TResult) Methods" Url="html/9073e89e-1ad1-2c8b-147a-e62ef8df0ea5.htm">
+            <HelpTOCNode Title="GetResult Method " Url="html/38f3b20f-1069-549f-c219-8f9a840e8cf2.htm" />
+            <HelpTOCNode Title="IAzureServicePipelineArgs(TResult).GetResult Method " Url="html/b7ff2422-2b71-3abe-fe1b-6ec56d50263e.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="BaseAzureServicePipelineArgs(TResult) Fields" Url="html/e7469b41-06ad-c7f2-e20f-15fa484e39b3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8451e86f-6e25-489b-be74-8772adaf607d" Title="BaseAzureServiceProcessor(TArgs, TResult) Class" Url="html/49efdfd6-9da7-18ec-99a8-53fee1673041.htm">
+          <HelpTOCNode Title="BaseAzureServiceProcessor(TArgs, TResult) Constructor " Url="html/8001c351-40e4-3e57-be75-c2b85175e257.htm" />
+          <HelpTOCNode Id="bafce096-b65e-4e22-8508-74827d6281bb" Title="BaseAzureServiceProcessor(TArgs, TResult) Properties" Url="html/e758f628-6166-0f94-bf0f-f1ab5188d1ba.htm">
+            <HelpTOCNode Title="AzureService Property " Url="html/99f6902b-b8a3-d1b5-0a26-43f5603f7300.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b8157be8-8c34-47ca-a11d-a295c186c3d1" Title="BaseAzureServiceProcessor(TArgs, TResult) Methods" Url="html/f57c6030-4c3f-8931-10dc-afa41a93ce0e.htm">
+            <HelpTOCNode Title="Process Method " Url="html/1befc905-c42d-de02-cfe8-1db2f1c8e4da.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="b39b66f3-ebca-419e-8506-1d6c8a678325" Title="IAzureServicePipelineArgs Interface" Url="html/eb7c42e0-8596-9b73-fd4a-f1011292124f.htm">
+          <HelpTOCNode Id="c97633ed-807c-4af3-9ac4-1873e7687789" Title="IAzureServicePipelineArgs Methods" Url="html/23bd35c5-bf12-d28f-5f0d-2209f17ec5bf.htm">
+            <HelpTOCNode Title="GetResult Method " Url="html/4a653bdb-7dc2-096d-fdd5-43a363049982.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3e720b9f-38d1-45b0-9345-6c59759659bf" Title="IAzureServicePipelineArgs(TResult) Interface" Url="html/1f2a7acd-9b59-1265-3842-9594665d60f3.htm">
+          <HelpTOCNode Id="98678ab5-4395-4636-b4e1-8e891b72258c" Title="IAzureServicePipelineArgs(TResult) Properties" Url="html/7051b08f-bf83-8dda-9d46-95adae6ebb07.htm">
+            <HelpTOCNode Title="Result Property " Url="html/dce48fde-0809-5eff-b1be-477f9ddac92f.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="839bcdfc-f5e0-415a-9b2f-6334ffc385b4" Title="IAzureServicePipelineArgs(TResult) Methods" Url="html/17451102-f864-24fe-26ca-2e07a6e097ea.htm">
+            <HelpTOCNode Title="GetResult Method " Url="html/6061bb80-6cf8-08c6-7183-2d9479dbb780.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3b800b45-ded2-4263-8fd4-b13304821958" Title="IAzureServiceProcessor(TArgs, TResult) Interface" Url="html/da2ae5fc-5d56-7c9d-8558-05fcdc5e08f1.htm">
+          <HelpTOCNode Id="894206a6-fbf0-4f3e-8204-346c5a0dcae8" Title="IAzureServiceProcessor(TArgs, TResult) Methods" Url="html/fe33aad7-f53b-5d3a-9d75-2eebc13764e3.htm">
+            <HelpTOCNode Title="Process Method " Url="html/cd01fc64-58bd-5a08-0b0b-b1248577b722.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="eefdd463-eca5-4660-a5c7-f5e92603cfd4" Title="TheInjectables.Foundation.PaaSPort.Azure.Service Namespaces" Url="html/5c1c2972-3cb4-02b4-5253-46f8c3765f8b.htm">
+        <HelpTOCNode Id="1142ad3d-1115-42d1-ac8b-87b7a3680ac7" Title="TheInjectables.Foundation.PaaSPort.Azure.Service" Url="html/a9603110-897f-6061-e234-b81593ee80b8.htm">
+          <HelpTOCNode Id="388ad760-e3eb-45e3-b782-a82b0e3a4011" Title="IAzureServiceManager Interface" Url="html/1852a227-ac23-862d-1047-98afef930e39.htm">
+            <HelpTOCNode Id="07fb8d8f-c24d-47d1-920b-b3cb2b100ebf" Title="IAzureServiceManager Methods" Url="html/9d1ed685-43cd-1456-2172-920e664dd6e5.htm">
+              <HelpTOCNode Title="GetAzureService Method " Url="html/3ee85a35-9942-846c-c437-a061b2cd5640.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="51b7ee54-97fb-4b6c-b79f-15e9c540ba32" Title="TheInjectables.Foundation.PaaSPort.Azure.Service.Authentication" Url="html/4128250a-8b76-edcb-2956-9aacfe4a4ed9.htm">
+          <HelpTOCNode Id="4c709fbf-f21a-4a84-a4a2-109cd7278da2" Title="IAzureCredentials Interface" Url="html/07121e64-9f8a-9a49-b4b5-aac33228cad1.htm">
+            <HelpTOCNode Id="ae5f39c8-9954-4ffd-8002-6c7f42b5803e" Title="IAzureCredentials Properties" Url="html/840721e8-8345-10a9-abd6-9e5cd4aa20b7.htm">
+              <HelpTOCNode Title="ClientId Property " Url="html/69e7e051-8870-545e-9662-093e223a891a.htm" />
+              <HelpTOCNode Title="Key Property " Url="html/b89000bd-d9aa-d7e9-1ccd-76d84bbf5dc8.htm" />
+              <HelpTOCNode Title="SubscriptionId Property " Url="html/492f32d4-e712-c858-4e46-43107a44a6ea.htm" />
+              <HelpTOCNode Title="TenantId Property " Url="html/49d5e0eb-90a3-fe95-7487-61effedd810b.htm" />
+            </HelpTOCNode>
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
